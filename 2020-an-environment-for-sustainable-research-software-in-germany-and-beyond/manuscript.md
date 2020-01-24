@@ -128,7 +128,7 @@ Background
 > sustainability. Note that in Kim’s world, many of the changes this
 > paper calls for have already been implemented.  
 > (In our example, Kim is a female person. Of course, research software
-> engineers (RSEs) could be male, female, or something in between or
+> engineers (RSEs) can be any gender.
 > beyond.)
 
 Computational analysis of huge data sets, computer-based simulations,
