@@ -107,7 +107,9 @@ affiliations:
 39. Institute of Applied Mathematics, Leibniz University Hannover, Germany and 
 40. Energy Technology, Eindhoven University of Technology, The Netherlands and 
 41. Julius Kühn-Institut (JKI), Federal Research Centre for Cultivated Plants, Quedlinburg, Germany
-42. FIXME Rudolf Weeber to add affiliation
+42. LMU Munich, Germany and
+43. Bielefeld University, Germany and
+44. Helmholtz Zentrum München, Germany
 - * axel.loewe@kit.edu, gunnar.seemann@universitaets-herzzentrum.de
 - † Contributed equally
 bibliography: 'references.bib'
