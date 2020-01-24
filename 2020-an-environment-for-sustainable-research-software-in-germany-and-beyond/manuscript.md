@@ -129,7 +129,6 @@ Background
 > paper calls for have already been implemented.  
 > (In our example, Kim is a female person. Of course, research software
 > engineers (RSEs) can be any gender.
-> beyond.)
 
 Computational analysis of huge data sets, computer-based simulations,
 and software technology play a central role for virtually all scientific
