@@ -64,7 +64,7 @@ author:
 - 'Jan P. Thiele 39'
 - 'Benjamin Uekerman 40'
 - 'Stefan Unger 41'
-- 'Rudolf Weeber 42'
+- 'Rudolf Weeber 25'
 affiliations:
 1. Steinbuch Centre for Computing, Karlsruhe Institute of Technology (KIT), Germany and 
 2. Innovative Computing Lab, University of Tennessee, Knoxville, TN, USA and 
