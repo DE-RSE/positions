@@ -716,11 +716,11 @@ consideration of the research domain. These comprise (11) the
 availability of examples (comprising input data and reference results),
 (12) mechanisms for extensibility (software modularity) as one aspect of
 software architecture (Venters et al. 2018) and (13) interoperability
-(APIs / common and open data formats for input and output), (14) testing
-infrastructure including but not strictly requiring unit tests,
-performance tests, regression tests, integration tests, end-to-end tests
-(ideally run in an automated fashion in a continuous integration
-environment), (15) tagged releases (considering their frequency, and
+(APIs / common and open data formats for input and output), (14) a test suite
+(including at least some of the following: unit tests, regression tests,
+integration tests, end-to-end tests, performance tests; ideally run in an
+automated fashion in a continuous integration environment),
+(15) tagged releases (considering their frequency, and
 availability for end users in terms of binary packages for major
 operating systems, or availability via package managers or containers),
 (16) no (large-scale) re-implementations for functionality for which
