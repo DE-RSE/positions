@@ -156,8 +156,9 @@ or as community effort. Many of these software stacks can not be
 sustained – often because research software was not a first class
 deliverable in a research project and hence remained in a prototype
 state, or because of missing incentives and resources to maintain the
-software after project funding ended. Another fundamental difference to
-industrial software development is that most developers of academic
+software after project funding ended.
+
+Another fundamental difference to industrial software development is that most developers of academic
 research software (often doctoral students or postdoctoral researchers)
 never receive training in sustainable software development. In
 particular, as they see themselves usually as the primary user of a
@@ -166,7 +167,9 @@ sustainability measures such as code documentation or portability. In
 combination with most researchers holding only temporary positions, this
 results in a highly inefficient system where millions of lines of code
 are generated every year that will not be re-used after the termination
-of the developer’s position. Part of the problem is the reluctance to
+of the developer’s position.
+
+Part of the problem is the reluctance to
 accept research software engineering as an academic profession that
 results in a lack of incentives to produce high-quality software:
 producing high software quality is resource-demanding, and although the
@@ -212,7 +215,9 @@ research in Germany, for example, has opened a call for sustainable
 research software development (DFG 2016) at the end of 2016 and a second
 call for quality management in research software (DFG 2019b) in June
 2019. We note that the first call was oversubscribed by a factor of
-10-15, a strong indicator of unmet demand. As another example, the 2019
+10-15, a strong indicator of unmet demand.
+
+As another example, the 2019
 “Guidelines for Safeguarding Good Research Practice” Code of Conduct of
 the DFG (DFG 2019a) now explicitly list software side by side with
 research results and data. The FAIR principles for research
@@ -577,7 +582,9 @@ early phases) for almost all types of research software applications.
 “Classical” research funding schemes, should acknowledge the need to
 follow best practices during the development of new software and allow
 to factor in appropriate resources to design and implement for
-sustainability. In this section, we focus on the question which software
+sustainability.
+
+In this section, we focus on the question which software
 to support in dedicated sustainability funding schemes. For such
 sustained funding, only software in application class 2 or 3 as defined
 by Schlauch et al. (Schlauch, Meinel, and Haupt 2018), i.e. with
@@ -586,14 +593,16 @@ be considered. The sustained funding of all existing software efforts is
 not only impossible, but would risk to overly ramify the community and
 eventually become counterproductive to the efficiency of the research
 community. Therefore, it is important to agree on a list of transparent
-criteria that qualify a software product for sustained funding. We
-recognize that defining research software engineering criteria for
+criteria that qualify a software product for sustained funding.
+
+We recognize that defining research software engineering criteria for
 software evaluation will also lead to activities aiming at optimizing
 scores to achieve these criteria. Hence, the criteria have to be
 designed such that all score-pushing effort truly advances the value of
 the software. Criteria that can be manipulated without effectively
-adding value, i.e., wasting resources, should be excluded. The list of
-criteria presented in this chapter could be the basis for a structured
+adding value, i.e., wasting resources, should be excluded.
+
+The list of criteria presented in this chapter could be the basis for a structured
 review process that facilitates an unbiased evaluation of software tools
 from various fields. Therefore, this list must be general enough to be
 applied to research software from various research disciplines while
@@ -605,8 +614,9 @@ repositories have a lifespan less than one day (median: 15
 days) (Hasselbring et al. 2019) indicating that many codes are only made
 available publicly (as increasingly encouraged or required by
 journals (Resnik et al. 2019) and associated with higher
-impact (Vandewalle 2012)) but are not maintained. One of the major
-challenges in the endeavor to define a selection scheme for sustainable
+impact (Vandewalle 2012)) but are not maintained.
+
+One of the major challenges in the endeavor to define a selection scheme for sustainable
 funding of research software is to organize a fair and transparent
 review process. We believe that it is important that the review process
 is conducted by experts, or teams of experts, that have a strong
@@ -621,7 +631,9 @@ other hand, a structured qualitative assessment with scores for groups
 of criteria can provide a middle ground. It is clear that both preparing
 an application for a review against these criteria from the applicant
 side as well as the evaluation by the reviewers requires significant
-effort. We believe that the added value significantly outweighs the
+effort.
+
+We believe that the added value significantly outweighs the
 investment but appropriate resources need to be factored in. Excellence
 as reflected in funded projects, publications, and software adoption,
 i.e. backing by a community, should be considered during selection.
@@ -657,8 +669,9 @@ support from other organizations, collaboration/partnership, and
 integration with policy). They found that the various outputs are widely
 accessible, but not necessarily sustained or maintained. Projects with
 most sustainability influences often became institutionalized and met
-required needs of the community (Hsu, Hutchison, and Langseth 2019). In
-the field of open source software, the CHAOSS (Community Health
+required needs of the community (Hsu, Hutchison, and Langseth 2019).
+
+In the field of open source software, the CHAOSS (Community Health
 Analytics Open Source Software) project has developed metrics to
 evaluate sustainability (CHAOSS 2019). One objective of CHAOSS is to
 automatically generate project health reports based on software that
@@ -765,7 +778,9 @@ should be ideally performed by a central institution (e.g. at funding
 bodies or other independent agencies such as a software sustainability
 institute). Only criteria for which improvement truly advances the value
 of the software should be considered in evaluation schemes, i.e., no
-criteria that can be gamed. After rejecting software not fulfilling the
+criteria that can be gamed.
+
+After rejecting software not fulfilling the
 mandatory criteria in a first stage of the review process, the second
 stage of the selection process should be realized as a transparent
 procedure ideally allowing the reviewers to interact with the principal
@@ -773,8 +788,9 @@ investigators of the software (e.g. remote meetings, forum-like
 discussions) and put the software quality and development efforts into
 the domain-specific context. The outcome of this second stage should be
 a structured review assessing each criterion explicitly and a rating for
-each of the dimensions *Usage and Impact, Software Quality, and
-Maturity*. For sustained software funding it is important to audit the
+each of the dimensions *Usage and Impact, Software Quality, and Maturity*.
+
+For sustained software funding it is important to audit the
 performance, relevance, impact, progress, and level of sustainability of
 funded software after reasonable time frames. Such a reevaluation should
 revisit the criteria under consideration of evolving software technology
@@ -961,8 +977,9 @@ How can Research Software be Sustainably Funded?
 > for the researchonomics curriculum which teaches data processing with
 > *hal9k*. As a lesson from her own career, she starts the course with
 > sessions on the Hash shell, version control with Tig, Boa, and two
-> whole sessions on basics of sustainable software development. This is
-> very fruitful, and due to the implementation of a new research
+> whole sessions on basics of sustainable software development.
+> 
+> This is very fruitful, and due to the implementation of a new research
 > software funding scheme at UofA, Kim is able to hire one of the course
 > students, who has shown great research software engineering skills
 > straight into a long-term position at her institute, where they focus
@@ -1077,8 +1094,9 @@ Which Infrastructure is Needed to Sustain Research Software?
 > for research software on a national level - ingests *hal9k* releases
 > with complete metadata: citation metadata, the *hal9k* provenance
 > graph and computational environment information, ORCID iDs, etc. and
-> provides its own DOIs for versions under a concept DOI. The community
-> reviews all code and documentation changes that are contributed to
+> provides its own DOIs for versions under a concept DOI.
+> 
+> The community reviews all code and documentation changes that are contributed to
 > *hal9k* via the central TigHub, and the Hub’s CI system Alfred builds,
 > tests, and pushes new releases automatically to the registered
 > supercomputing clusters. Especially the community efforts become
@@ -1100,7 +1118,9 @@ development typically includes bleeding-edge research and development
 that the researchers do not want to disclose for a certain time to
 preserve intellectual property, distributed research software
 development also needs a global Authentication and Authorization
-Infrastructure (AAI). We recommend the development and/or deployment of
+Infrastructure (AAI).
+
+We recommend the development and/or deployment of
 tools for distributed software development and software management as
 central research infrastructure. An important aspect in this context is
 the cataloging of research software to reduce the duplication of
@@ -1212,8 +1232,9 @@ aforementioned metadata standards, it is advisable to document source
 code, e.g., using MarkDown (with Doxygen tooling). Metadata and
 citations play a role in beneficial tools like PIDgraph,
 [DataCite.org](DataCite.org), [CrossRef.org](CrossRef.org), which
-utilize Persistent Identifiers (PIDs) like DOI. Another solution to
-discovery are (mostly) disciplinary software indices like swMATH (swMATH
+utilize Persistent Identifiers (PIDs) like DOI.
+
+Another solution to discovery are (mostly) disciplinary software indices like swMATH (swMATH
 2019) or the Astronomy Source Code Library (ASCL.net 2019). These
 started as national endeavors and became platforms of global importance.
 For Germany, we assume that the Nationale Forschungsdateninfrastruktur
@@ -1325,7 +1346,9 @@ materials (Bundesministerium der Justiz und für Verbraucherschutz
 2014a). The challenge in the use, distribution, and commercialization of
 software is to determine the chain of rights and to identify all right
 holders. The owner of the copyright is not necessarily the owner of the
-right of use. For Germany, the Copyright Act regulates the rights for
+right of use.
+
+For Germany, the Copyright Act regulates the rights for
 employment relationships (Bundesministerium der Justiz und für
 Verbraucherschutz 2014b). In such cases, the right of use is
 automatically transferred to the employer. This means that in most cases
@@ -1342,6 +1365,7 @@ of third parties may also be relevant. Existing source code (e.g., other
 free/libre open source software, FLOSS), external libraries, and
 contributions from institutional cooperation partners are published and
 provided under certain licenses and their conditions must be observed.
+
 The nature of research careers often brings additional complications in
 the chain of rights. It happens that researchers take their software
 with them when they change institutions and develop it further during
@@ -1426,7 +1450,9 @@ organize **educational offers** e.g. for the legal topics presented, and
 performing organization. As an example, with the help of on-boarding
 processes performed by the research software task force, RSEs should be
 able to keep the clearance of rights as simple as possible right from
-the start. One possibility how local legal help desks could structure
+the start.
+
+One possibility how local legal help desks could structure
 their work is shown in the decision tree in
 Fig. <a href="#fig:tree1Article" data-reference-type="ref" data-reference="fig:tree1Article">1</a>.
 A more complete suggestion for decision trees for both legal help desks
