@@ -144,7 +144,8 @@ our actions today have on the climate of tomorrow. However, an
 implication of computer-based research is that findings and data can
 only be reproduced, understood, and validated if the software that was
 used in the research process is sustained and their functionality
-maintained.  
+maintained.
+
 At the same time, sustaining research software, and in particular open
 research software, comes with a number of challenges. Commercial
 research software often has revenue flows that can facilitate
@@ -178,14 +179,16 @@ write a sustainable code including documentation and installation
 routines, as well as running infrastructure and giving support to others
 when the resources can be used more profitably by writing scientific
 publications based on fragile prototype software (Bangerth and Heister
-2014; Prins et al. 2015).  
+2014; Prins et al. 2015).
+
 Thus, one main factor for the poor sustainability of research software
 is the lack of long-term funding for research software engineers
 (RSE) (Richardson and Croucher 2018) who take care of the appropriate
 architecture, organization, implementation, documentation, and community
 interaction for the software, paired with the implementation of measures
 towards making the software sustainable during the development
-process (Brett et al. 2017).  
+process (Brett et al. 2017). 
+
 In this paper, we describe the state of the practice and current
 challenges for research software sustainability, and suggest measures to
 be taken towards improvements to solve these challenges. The paper is
@@ -218,7 +221,8 @@ enabling full reproducibility and traceability of research software
 requires additional steps (Hasselbring et al. 2019). In consequence,
 there are ongoing discussions whether software should be considered as a
 specific kind of research data or as a separate entity (Lamprecht et al.
-2019).  
+2019).
+
 Unfortunately, guidelines and policies for sustainable research software
 development in Germany are still lacking and long-term funding
 strategies are missing. This all leads to unmet requirements and
@@ -256,7 +260,8 @@ Why Sustainable Research Software in the First Place?
 > break after she installs a newer version of Boa. She visits the weekly
 > Code Café organized by her university’s central RSE team. The RSEs not
 > only help her update her scripts but also suggest some changes which
-> actually speed up processing by a factor of 25.  
+> actually speed up processing by a factor of 25.
+>
 > During the next meeting with her PhD supervisor, Kim presents her
 > collection of scripts. The supervisor encourages Kim to create a Boa
 > library from them, as they will be very useful to other
@@ -275,6 +280,7 @@ Why Sustainable Research Software in the First Place?
 > some methods in software engineering, and she’s thrilled because this
 > also means she’ll be able to get a job with a local tech company once
 > her fixed-term contract has run out.  
+>
 > Kim passes her PhD - of which *hal9k* is an important part - with
 > flying colours, and soon citations to her library start appearing in
 > the researchonomic literature. To Kim’s surprise, she also reads a
@@ -542,7 +548,8 @@ How to Decide Which Software to Sustain?
 > them that based on Kim’s work, they will now negotiate about two new
 > RSEs for the central team with the university’s provost for research
 > and plan to consider candidates with a background in
-> researchonomics.  
+> researchonomics.
+>
 > When they get the decision letter from the research funding
 > organization, Kim and her co-PI are happy to learn that their new
 > project has won the grant. The reviewers specifically point out the
