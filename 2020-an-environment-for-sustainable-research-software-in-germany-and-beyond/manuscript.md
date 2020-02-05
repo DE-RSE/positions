@@ -65,6 +65,7 @@ author:
 - 'Benjamin Uekerman 40'
 - 'Stefan Unger 41'
 - 'Rudolf Weeber 25'
+- 'Piotr Wojciech Dabrowski 45'
 affiliations:
 1. Steinbuch Centre for Computing, Karlsruhe Institute of Technology (KIT), Germany and 
 2. Innovative Computing Lab, University of Tennessee, Knoxville, TN, USA and 
@@ -110,6 +111,7 @@ affiliations:
 42. LMU Munich, Germany and
 43. Bielefeld University, Germany and
 44. Helmholtz Zentrum München, Germany
+45. School of Computing, Communication and Business, Hochschule für Technik und Wirtschaft Berlin, Germany
 - * axel.loewe@kit.edu, gunnar.seemann@universitaets-herzzentrum.de
 - † Contributed equally
 bibliography: 'references.bib'
@@ -150,8 +152,17 @@ research software, comes with a number of challenges. Commercial
 research software often has revenue flows that can facilitate
 sustainable software development, maintenance, and documentation as well
 as the operation of adequate infrastructure. However, a large share of
-researchers base their research on software that was developed in-house
-or as community effort. Many of these software stacks can not be
+researchers need to base their research on software that was developed in-house
+or as community effort. This can be due to a newly developed algorithm
+and the resulting software being at least part of the research work itself,
+or due to a highly dynamic field of research with diverse research questions
+requiring specialized and quickly adapting software solutions that do not
+offer sufficient financial incentives for commercial software solutions to
+be developed, or due to disadvantages of commercial software outweighting
+its advantages in the specific use case (e.g. prohibitive license costs,
+proprietary not publically documented algorithms or export restrictions).
+This need of custom in-house or community software development notwithstanding,
+the approach brings its own significant challenges: Many of these software stacks can not be
 sustained – often because research software was not a first class
 deliverable in a research project and hence remained in a prototype
 state, or because of missing incentives and resources to maintain the
@@ -174,7 +185,7 @@ Declaration on Research Assessment” 2012)) demands for a change in the
 academic credit system, many institutions base promotion and
 appointments on traditional metrics like the Hirsch index (Hirsch 2005).
 It is obvious that an extraordinary amount of idealism is required to
-write a sustainable code including documentation and installation
+write sustainable code including documentation and installation
 routines, as well as running infrastructure and giving support to others
 when the resources can be used more profitably by writing scientific
 publications based on fragile prototype software (Bangerth and Heister
@@ -219,8 +230,8 @@ requires additional steps (Hasselbring et al. 2019). In consequence,
 there are ongoing discussions whether software should be considered as a
 specific kind of research data or as a separate entity (Lamprecht et al.
 2019).  
-Unfortunately, guidelines and policies for sustainable research software
-development in Germany are still lacking and long-term funding
+These positive developments notwithstanding, guidelines and policies for sustainable research software
+development in Germany are unfortunately still lacking and long-term funding
 strategies are missing. This all leads to unmet requirements and
 unsolved challenges that we want to highlight in this paper by
 elaborating on i) why sustainable research software development needs to
@@ -291,11 +302,16 @@ digitalization of research has introduced complex digital research
 outputs, such as software and data sets. Although first
 recommendations (Katerbow and Feulner 2018) and policies (Scheliga et
 al. 2019) exist, they are far from being widely adapted. It is still
-somewhat unclear how to translate good research practice into research
+somewhat unclear how to translate good research practice into good research
 software practice, for example in terms of validity and reproducibility,
-but also pertaining to the responsible use of resources.
+but also pertaining to the responsible use of resources. The damage
+that failing to do is causing both to the progress of the research community
+and to the credibility of science in society is becoming increasingly clear
+with the growth of the replication crisis - while the lack of universally
+agreed-upon and supported good research software practice is not the main
+reason for that crisis, it clearly is a contributing factor.
 
-While it is obvious that software qualifies as a potentially re-usable
+While it is thus obvious that software qualifies as a potentially re-usable
 digital artifact, the additional benefit of not just reproducing a given
 scenario, but transferring software use to new problems, domains, and/or
 applications, justifies developing research software with a long-term
@@ -360,7 +376,7 @@ shortcoming, we have identified the following challenges:
     as provided by Software Carpentries, advanced courses for Research
     Software Engineering are not widely available (with the notable
     exception of the CodeRefinery project (The CodeRefinery Project
-    n.d.)). targeted curricula must be developed and updated regularly,
+    n.d.)). Targeted curricula must be developed and updated regularly,
     and specialized instructors need to be trained.
 
 -   **Lack of impact measures**: It is unclear how to measure the impact
@@ -377,7 +393,8 @@ shortcoming, we have identified the following challenges:
     software sustainability (Kuchinke et al. 2016; Loewe et al. 2019).
 
 -   **Legal issues**: Many obstacles for research software pertain to
-    legal issues, such as applicable licensing (Morin, Urban, and Sliz
+    legal issues, such as applicable licensing and compatibility of
+    licenses (Morin, Urban, and Sliz
     2012b), and decisions about license types.
 
 -   **Funding issues**: Despite some individual initiatives (Katz and
@@ -394,7 +411,7 @@ shortcoming, we have identified the following challenges:
     Park and Wolfram 2019; Pan et al. 2019; Doerr et al. 2019; Druskat
     2019; Katz, Bouquin, et al. 2019).
 
--   **Slow adoption of Research Software Engineers as a profession**:
+-   **Slow adoption of Research Software Engineering as a profession**:
     Career options for research software work are not fully determined,
     although career paths are emerging in some regions. Initially, the
     RSE initiative in the UK has made progress in this area, and RSE
@@ -497,7 +514,7 @@ increase visibility and discoverability for research software through
 their services and advance the competitiveness of their organization or
 geopolitical unit. In addition, libraries also use research software and
 would thus benefit directly from a more sustainable research software
-landscape. In addition, by using free and open source research software,
+landscape. Last but not least, by using free and open source research software,
 libraries could avoid expensive licenses and often insufficiently
 adapted commercial software.
 
@@ -511,7 +528,7 @@ software engineering teams.
 
 **Research funding organizations** have inherent interest in – and
 directly benefit from – the existence of sustainable research software
-as it allows them to direct more resources towards other research topics
+as it allows them to directly more resources towards other research topics
 and increase return on investment. At the same time, funding
 organizations can create incentives for sustainable software by imposing
 policies that reflect the necessity of research software sustainability
@@ -567,7 +584,7 @@ beginning on for new projects. The criteria listed below, or a subset
 such as the “good enough” practices proposed by Wilson et al. (Wilson et
 al. 2017), are valuable throughout the development process (including
 early phases) for almost all types of research software applications.
-“Classical” research funding schemes, should acknowledge the need to
+“Classical” research funding schemes should acknowledge the need to
 follow best practices during the development of new software and allow
 to factor in appropriate resources to design and implement for
 sustainability. In this section, we focus on the question which software
@@ -594,16 +611,17 @@ also respecting differences between fields (e.g. citation rates between
 humanities and life sciences). The challenge to do justice to a wide
 spectrum is e.g. reflected by suggesting criteria comprising different
 levels (Hong 2014). Interestingly, one third of research software
-repositories have a lifespan less than one day (median: 15
+repositories have a lifespan (defined as the time from the first time
+any code was uploaded to the last contribution) of less than one day (median: 15
 days) (Hasselbring et al. 2019) indicating that many codes are only made
-available publicly (as increasingly encouraged or required by
+available publicly for the publication in a journal (as increasingly encouraged or required by
 journals (Resnik et al. 2019) and associated with higher
-impact (Vandewalle 2012)) but are not maintained. One of the major
+impact (Vandewalle 2012)) but are not maintained thereafter. One of the major
 challenges in the endeavor to define a selection scheme for sustainable
 funding of research software is to organize a fair and transparent
 review process. We believe that it is important that the review process
 is conducted by experts, or teams of experts, that have a strong
-background both on software engineering as well on the domain-specific
+background both on software engineering as well as on the domain-specific
 aspects, the latter because certain criteria often exist on a spectrum
 that is most likely shaped by the specific demands of the respective
 research community. While an assessment based purely on quantitative
@@ -738,7 +756,7 @@ appropriate amount of resources as detailed in a sustainability section
 of the software management plan. The software has (19) a well maintained
 website with a clearly defined **point of contact**. Besides an active
 user community, sustainable software requires (20) a group of developers
-(i.e., definitely **more than 1 developer**) documented, e.g., by
+(i.e. definitely **more than 1 developer**) documented, e.g., by
 contributions to the code base or participation in documented, public
 discussions or issue tracking. Another criterion is (21) whether
 potential contributors are invited to participate in a clearly defined
@@ -868,8 +886,9 @@ experience. However, the current academic system in Germany does not
 provide a defined **RSE role**. Limited-term positions are, at least
 currently within the main German academic system, often effectively the
 end of their career path, sometimes even a dead end. The challenge here
-is the lack of available permanent positions within the non-professorial
-academic faculty (“Mittelbau”) in Germany, as well as the already
+is the general lack of available permanent positions within the non-professorial
+academic faculty (“Mittelbau”) in Germany, compounded by a lack of access to 
+these few permanent positions for research software engineers due to the already
 mentioned lack of recognition for efforts concerning research software
 for faculty appointments within domain sciences.
 
@@ -983,7 +1002,7 @@ Challenges
 
 Short-term engagement of (young) researchers raises the question of how
 to maintain a constant level of expertise within a developer team and
-preventing knowledge drain concerning domain knowledge and software
+prevent knowledge drain concerning domain knowledge and software
 engineering skills. Conversely, the permanent engagement of qualified
 personnel requires to offer career perspectives, especially due to the
 fact that academia competes with industry for the same people. A
@@ -1046,7 +1065,7 @@ services, a hardware portfolio for development, testing and benchmarking
 software, as well as personnel for training domain researchers in
 software design and the proper usage of the services.
 
-The creation and maintenance of training material for general research
+The creation and maintenance of training materials for general research
 software engineering education and the software-specific documentation
 and tutorial creation needs to be reflected in funding opportunities.
 This can either happen by dedicating modules of research or software
@@ -1100,7 +1119,13 @@ the cataloging of research software to reduce the duplication of
 development efforts. This can efficiently be realized by promoting the
 registration of all research software efforts with an ORCID iD (“ORCID”
 2019) and developing a tool that allows to explore the research software
-landscape.
+landscape. While some funding for such tools and software repositories is
+emerging (e.g. the bio.tools catalogue of bioinformatics tools funded
+as part of the European ELIXIR project, Ison, Rapacki, Ménager et al., 
+2015), a standardized extension of such efforts to the RSE community as
+a whole is necessary. However, as the experiences from ELIXIR
+demonstrate, this is a non-trivial effort that requires significant dedicated
+and long-term funding. 
 
 Quality Assurance
 -----------------
@@ -1334,7 +1359,10 @@ In addition to the rights of the people directly involved, other rights
 of third parties may also be relevant. Existing source code (e.g., other
 free/libre open source software, FLOSS), external libraries, and
 contributions from institutional cooperation partners are published and
-provided under certain licenses and their conditions must be observed.
+provided under certain licenses and their conditions must be observed 
+(which, due to incompatibilities even among open source software licenses,
+may well mean that individually reuseable pieces of software cannot be 
+reused together or in a new context).
 The nature of research careers often brings additional complications in
 the chain of rights. It happens that researchers take their software
 with them when they change institutions and develop it further during
@@ -1768,6 +1796,11 @@ Contributing to Oss Projects? A Preliminary Analysis.”
 
 ifrOSS. 2019. “Lizenz Center.”
 [ifross.github.io/ifrOSS/Lizenzcenter](ifross.github.io/ifrOSS/Lizenzcenter).
+
+Jon Ison, Kristoffer Rapacki, Hervé Ménager, Matúš Kalaš, Emil Rydza, 
+Piotr Chmura, Christian Anthon, Niall Beard, Karel Berka, et al. 2015.
+“Tools and data services registry: a community effort to document 
+bioinformatics resources” *Nucleic Acids Research* 44 (January): D38-D47.
 
 Jackson, Mike, Steve Crouch, and Rob Baxter. 2019. “Software Evaluation
 Guide.”
