@@ -794,7 +794,7 @@ Who Sustains Research Software?
 > Due to her involvement in the creation of *hal9k* as well as her
 > previous success in attracting funding, Kim has the choice between
 > multiple, attractive positions and decides to temporarily move to the
-> researchonomics group at Eden University (EdU).She has already
+> researchonomics group at Eden University (EdU). She has already
 > extended *hal9k* in multiple directions in the past and plans to
 > continue this work at EdU. Her group leader at EdU would like to
 > continue funding her, but due to a law called the Fixed-term Research
@@ -848,7 +848,7 @@ Challenges
 ----------
 
 We are currently facing a **lack of awareness** for the importance of
-research software as discussed in the section on p. . Moreover, there is
+research software as discussed in the section on p.?? . Moreover, there is
 **little recognition** for the efforts put into software development and
 maintenance. In consequence, software development in academic settings
 is mostly considered as a means to an end and sustainability is often
