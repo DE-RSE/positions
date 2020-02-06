@@ -1035,7 +1035,7 @@ specifically designed for research software development and sustained
 research software maintenance to make research software a first class
 citizen in the research landscape. For example, software projects
 enhancing research and fulfilling the sustainability criteria detailed
-in section  on p.  may be entitled for sustained funding as long as they
+in section on p.**??**  may be entitled for sustained funding as long as they
 live up to the standards and remain a central component of the research
 landscape.
 
