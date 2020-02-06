@@ -1114,7 +1114,7 @@ project-external software reviews should be included in the service
 curriculum, which requires either establishing a workforce of skilled
 and experienced software development experts, or drawing on expertise of
 external experts such as the Software Sustainability Institute (SSI)
-(see section  on p.  for details).
+(see section  on p. **??** for details).
 
 Scalable Computing Resources
 ----------------------------
@@ -1163,7 +1163,7 @@ central resources are necessary that individuals and groups in the
 research software landscape can draw from.
 
 We consider Software Carpentry and similar efforts like the creation of
-the Data Science Academy in the Helmholtz Association of German Research
+the Data Science Academy [HIDA](https:\\www.helmholtz-hida.de) in the Helmholtz Association of German Research
 Centers helpful solutions to exchange and distribute knowledge. Local
 chapters of RSE groups and (inter-)national conferences will further
 foster networking and community building. We strongly recommend the
@@ -1193,7 +1193,7 @@ metadata (e.g. contributors, contact, keywords, linked publications,
 etc.) and publishing platforms have to enable persistent citing, which
 in turn benefits research evaluation. Selection and curation of software
 (probably by a data/software librarian) for publication and discovery
-are certainly challenging (compare section  on p. ).
+are certainly challenging (compare section  on p. **??**).
 
 We consider GitHub or GitLab as collaborative working environments and
 repositories like [Zenodo.org](Zenodo.org) appropriate publication
