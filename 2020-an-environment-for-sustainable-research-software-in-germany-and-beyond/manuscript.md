@@ -125,12 +125,12 @@ Background
 ==========
 
 > Meet Kim, who is currently a post-grad PhD student in researchonomy at
-> the University of Arcadia. We will follow Kim’s fictional career in
+> the University of Arcadia (UofA). We will follow Kim’s fictional career in
 > order to understand different aspects of research software
 > sustainability. Note that in Kim’s world, many of the changes this
 > paper calls for have already been implemented.  
 > (In our example, Kim is a female person. Of course, research software
-> engineers (RSEs) can be any gender.
+> engineers (RSEs) can be any gender.)
 
 Computational analysis of huge data sets, computer-based simulations,
 and software technology play a central role for virtually all scientific
