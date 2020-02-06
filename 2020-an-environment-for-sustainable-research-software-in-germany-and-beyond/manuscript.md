@@ -306,8 +306,8 @@ correct (Hatton 2007; Chang et al. 2006; Matthews 2007), validatable,
 understandable, documented, publicly released, adequately published
 (i.e. in persistently identifiable form as software source code (Smith
 et al. 2016), and potentially in an additional paper which describes the
-software concept, design decisions and development rationale), actively
-maintained, and  (Merali 2010; Barnes 2010; Tse 2010).
+software concept, design decisions and development rationale), and actively
+maintained (Merali 2010; Barnes 2010; Tse 2010).
 
 To make it possible to reproduce computationally supported research, a
 software that has been used must continue to exist in the first place,
@@ -360,7 +360,7 @@ shortcoming, we have identified the following challenges:
     as provided by Software Carpentries, advanced courses for Research
     Software Engineering are not widely available (with the notable
     exception of the CodeRefinery project (The CodeRefinery Project
-    n.d.)). targeted curricula must be developed and updated regularly,
+    n.d.)). Targeted curricula must be developed and updated regularly,
     and specialized instructors need to be trained.
 
 -   **Lack of impact measures**: It is unclear how to measure the impact
