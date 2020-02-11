@@ -107,7 +107,7 @@ affiliations:
 38. Institute of Nanotechnology, Karlsruhe Institute of Technology (KIT), Germany and 
 39. Institute of Applied Mathematics, Leibniz University Hannover, Germany and 
 40. Energy Technology, Eindhoven University of Technology, The Netherlands and 
-41. Julius Kühn-Institut (JKI), Federal Research Centre for Cultivated Plants, Quedlinburg, Germany
+41. Julius Kühn-Institut (JKI), Federal Research Centre for Cultivated Plants, Quedlinburg, Germany and
 42. LMU Munich, Germany and
 43. Bielefeld University, Germany and
 44. Helmholtz Zentrum München, Germany
