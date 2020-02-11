@@ -61,6 +61,7 @@ author:
 - 'Guido Reina 35'
 - 'Timo Ropinski 36,37'
 - 'Joerg Schaarschmidt 38'
+- 'Heidi Seibold 42, 43, 44'
 - 'Jan P. Thiele 39'
 - 'Benjamin Uekerman 40'
 - 'Stefan Unger 41'
