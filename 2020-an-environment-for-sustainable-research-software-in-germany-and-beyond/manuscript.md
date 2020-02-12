@@ -144,7 +144,7 @@ research software that allows us to get a glimpse of the consequences
 our actions today have on the climate of tomorrow. However, an
 implication of computer-based research is that findings and data can
 only be reproduced, understood, and validated if the software that was
-used in the research process is sustained and their functionality
+used in the research process is available and
 maintained.  
 At the same time, sustaining research software, and in particular open
 research software, comes with a number of challenges. Commercial
