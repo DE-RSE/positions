@@ -596,7 +596,7 @@ humanities and life sciences). The challenge to do justice to a wide
 spectrum is e.g. reflected by suggesting criteria comprising different
 levels (Hong 2014). Interestingly, one third of research software
 repositories have a lifespan less than one day (median: 15
-days) (Hasselbring et al. 2019) indicating that many codes are only made
+days, Hasselbring et al. 2019) indicating that many codes are only made
 available publicly (as increasingly encouraged or required by
 journals (Resnik et al. 2019) and associated with higher
 impact (Vandewalle 2012)) but are not maintained. One of the major
@@ -660,7 +660,9 @@ evaluates the metrics, with most of the metrics already covered. The UK
 Software Sustainability Institute (SSI) suggested both a subjective
 tutorial-based and a more objective criteria-based software evaluation
 scheme (Jackson, Crouch, and Baxter 2019), the latter being available as
-an online form (SSI 2019a).
+an online form (SSI 2019a). ROpenSci provides software reviews
+for R developers, which have been very successful in the 
+community (see https://devguide.ropensci.org/softwarereviewintro.html). 
 
 We drew inspiration from all these works and suggest a set of criteria
 to base reviews for sustainable funding on. This set comprises
