@@ -660,9 +660,9 @@ evaluates the metrics, with most of the metrics already covered. The UK
 Software Sustainability Institute (SSI) suggested both a subjective
 tutorial-based and a more objective criteria-based software evaluation
 scheme (Jackson, Crouch, and Baxter 2019), the latter being available as
-an online form (SSI 2019a). ROpenSci provides software reviews
+an online form (SSI 2019a). [ROpenSci](https://devguide.ropensci.org/softwarereviewintro.html) provides software reviews
 for R developers, which have been very successful in the 
-community (see https://devguide.ropensci.org/softwarereviewintro.html). 
+community. 
 
 We drew inspiration from all these works and suggest a set of criteria
 to base reviews for sustainable funding on. This set comprises
@@ -673,7 +673,7 @@ and domain-specific software development requirements. The soft criteria
 should be evaluated in a structured way by the reviewers with a specific
 response for each section rather than one running text. The fact that
 most of these criteria will be considered in any software management
-plan (SMP, compare section   on p. ) (SSI 2019b) highlights its
+plan (SMP, SSI 2019b) highlights its
 importance for sustainable research software.
 
 ### Usage and Impact
@@ -704,11 +704,14 @@ the software are essential.
 ### Software Quality
 
 As mandatory criteria of software quality that have to be fulfilled, we
-consider (6) the **public availability of the source code**, with
-(7) **version control** (ideally on a public platform).
+consider (6) the **public availability of the source code** in both a 
+code repository and an archive (for long term availability), 
+developed using
+(7) **version control** with meaningful commit messages and linked to an issue tracker (ideally maintained, but at least mirrored on a public platform)
+``
 (8) **Documentation** of the software needs to be publicly available
 comprising both user documentation (requirements, installation, getting
-started, user manual) and developer documentation (ideally within the
+started, user manual) and developer documentation (with a development guide, release notes and API docs within the
 code, e.g. using Doxygen) (Lee 2018). (9) The **license** under which
 the software is distributed must be defined and ensure public code
 availability and free use, at least for academic purposes.
