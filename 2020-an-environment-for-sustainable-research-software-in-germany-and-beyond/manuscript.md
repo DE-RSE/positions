@@ -257,7 +257,7 @@ Why Sustainable Research Software in the First Place?
 > break after she installs a newer version of Boa. She visits the weekly
 > Code Café organized by her university’s central RSE team. The RSEs not
 > only help her update her scripts but also suggest some changes which
-> actually speed up processing by a factor of 25.  
+> speed up the computation by a factor of 25.  
 > During the next meeting with her PhD supervisor, Kim presents her
 > collection of scripts. The supervisor encourages Kim to create a Boa
 > library from them, as they will be very useful to other
