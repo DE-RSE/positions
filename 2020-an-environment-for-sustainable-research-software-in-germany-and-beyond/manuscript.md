@@ -731,7 +731,7 @@ availability for end users in terms of binary packages for major
 operating systems, or availability via package managers or containers),
 (16) no (large-scale) re-implementations for functionality for which
 good solutions already exist. Many of these aspects require appropriate
-infrastructure (see page ).
+infrastructure.
 
 ### Maturity
 
@@ -742,14 +742,14 @@ requirement is (17) a comprehensive and up-to-date **software management
 plan** (SSI 2019b). The software should (18) be maintainable with an
 appropriate amount of resources as detailed in a sustainability section
 of the software management plan. The software has (19) a well maintained
-website with a clearly defined **point of contact**. Besides an active
+website with a clearly defined **point of contact** and a communication channel to inform users about news regarding the software such as new releases. Besides an active
 user community, sustainable software requires (20) a group of developers
 (i.e., definitely **more than 1 developer**) documented, e.g., by
 contributions to the code base or participation in documented, public
 discussions or issue tracking. Another criterion is (21) whether
 potential contributors are invited to participate in a clearly defined
 process (e.g., a CONTRIBUTING document). The group of developers should
-have defined a governance model for their project.
+have defined a governance model for their project and easy ways for users to provide input regarding their needs.
 
 Recommendations
 ---------------
@@ -812,7 +812,7 @@ Who Sustains Research Software?
 
 Research relies on software and software relies on the people developing
 and maintaining it. Sustainable research requires sustainable software,
-and this in terms requires continuity for those who develop and maintain
+and this in turn requires continuity for those who develop and maintain
 it.
 
 Requirements
