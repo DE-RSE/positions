@@ -795,7 +795,7 @@ Who Sustains Research Software?
 > Due to her involvement in the creation of *hal9k* as well as her
 > previous success in attracting funding, Kim has the choice between
 > multiple, attractive positions and decides to temporarily move to the
-> researchonomics group at Eden University (EdU).She has already
+> researchonomics group at Eden University (EdU). She has already
 > extended *hal9k* in multiple directions in the past and plans to
 > continue this work at EdU. Her group leader at EdU would like to
 > continue funding her, but due to a law called the Fixed-term Research
