@@ -182,7 +182,7 @@ publications based on fragile prototype software (Bangerth and Heister
 2014; Prins et al. 2015).  
 Thus, one main factor for the poor sustainability of research software
 is the lack of long-term funding for research software engineers
-(RSE) (Richardson and Croucher 2018) who take care of the appropriate
+(RSEs, Richardson and Croucher 2018) who take care of the appropriate
 architecture, organization, implementation, documentation, and community
 interaction for the software, paired with the implementation of measures
 towards making the software sustainable during the development
