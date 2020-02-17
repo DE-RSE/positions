@@ -43,6 +43,8 @@ author:
 - 'Franziska Appel 17'
 - 'Michael Bader 18'
 - 'Lutz Brusch 19'
+- 'Christian Busse 46'
+- 'Gerasimos Chourdakis 47'
 - 'Peter Ebert 20'
 - 'Bernd Flemisch 21'
 - 'Sven Friedl 22'
@@ -51,6 +53,7 @@ author:
 - 'Jean-Noël Grad 25'
 - 'Sibylle Hermann 26'
 - 'Florian Hohmann 27'
+- 'Stephan Janosch 45'
 - 'Dominik Kutra 28'
 - 'Jan Linxweiler 29'
 - 'Thilo Muth 10,30'
@@ -1532,7 +1535,7 @@ Roles Taxonomy):
     Schaarschmidt, Seemann, Struck, Thiele, Uekermann, Unger, Weeber
 
 -   **Writing review & editing:** Anzt, Appel, Bach, Bader, Brusch,
-    Druskat, Friedl, Funk, Herrmann, Loewe, Löffler, Rack, Reina,
+    Busse, Chourdakis, Druskat, Friedl, Funk, Herrmann, Janosch, Loewe, Löffler, Rack, Reina,
     Renard, Seemann, Seibold, Struck, Thiele, Uekermann
 
 Supplementary Material
