@@ -708,10 +708,9 @@ consider (6) the **public availability of the source code** in both a
 code repository and an archive (for long term availability), 
 developed using
 (7) **version control** with meaningful commit messages and linked to an issue tracker (ideally maintained, but at least mirrored on a public platform)
-``
 (8) **Documentation** of the software needs to be publicly available
 comprising both user documentation (requirements, installation, getting
-started, user manual) and developer documentation (with a development guide, release notes and API docs within the
+started, user manual, release notes) and developer documentation (with a development guide and API documentation within the
 code, e.g. using Doxygen) (Lee 2018). (9) The **license** under which
 the software is distributed must be defined and ensure public code
 availability and free use, at least for academic purposes.
