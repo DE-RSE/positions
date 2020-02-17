@@ -712,8 +712,9 @@ developed using
 comprising both user documentation (requirements, installation, getting
 started, user manual, release notes) and developer documentation (with a development guide and API documentation within the
 code, e.g. using Doxygen) (Lee 2018). (9) The **license** under which
-the software is distributed must be defined and ensure public code
-availability and free use, at least for academic purposes.
+the software is distributed must be defined. Publicly funded software
+should be published under a Free and Open Source Software license
+by default, although exceptions to this might apply (e.g., excluding commercial use).
 (10) **Dependencies** on libraries and technologies must be defined.
 
 We acknowledge that some additional criteria have to be evaluated under
