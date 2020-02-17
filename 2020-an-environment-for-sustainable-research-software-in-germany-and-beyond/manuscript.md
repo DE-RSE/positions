@@ -541,7 +541,7 @@ How to Decide Which Software to Sustain?
 > citations of *hal9k* and the publications for which it was used. While
 > they write the proposal, the faculty dean approaches the two to tell
 > them that based on Kim’s work, they will now negotiate about two new
-> RSEs for the central team with the university’s provost for research
+> members for the central RSE team with the university’s provost for research
 > and plan to consider candidates with a background in
 > researchonomics.  
 > When they get the decision letter from the research funding
