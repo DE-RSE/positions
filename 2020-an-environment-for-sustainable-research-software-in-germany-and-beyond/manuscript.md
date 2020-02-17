@@ -1716,7 +1716,7 @@ Druskat, Stephan, Jurriaan H. Spaaks, Neil Chue Hong, Robert Haines, and
 James Baker. 2019. “Citation File Format (CFF) - Specifications.”
 <https://doi.org/10.5281/zenodo.3515946>.
 
-Europe, Free Software Foundation. 2019. “Public Money Public Code.”
+fsfe. 2017. “Public Money Public Code.”
 [publiccode.eu](publiccode.eu).
 
 Fehr, Jörg, and Jan Heiland, Christian Himpe, and Jens Saak. 2016. “Best
@@ -1743,7 +1743,7 @@ Software as a Scholarly Contribution.” *Commun. ACM* 52 (12): 126–29.
 
 Hasselbring, Wilhelm, Leslie Carr, Simon Hettrick, Heather Packer, and
 Thanassis Tiropanis. 2019. “FAIR and Open Computer Science Research
-Software.”
+Software.” *arXiv* 1908.05986. <https://arxiv.org/abs/1908.05986>.
 
 Hatton, Les. 2007. “The Chimera of Software Quality.” *Computer* 40 (8):
 104–3. <https://doi.org/10.1109/MC.2007.292>.
