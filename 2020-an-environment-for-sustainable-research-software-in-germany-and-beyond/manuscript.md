@@ -1407,8 +1407,8 @@ to copyleft; for further information, see (ifrOSS 2019) (tl;drLegal
 license for example would enable a truly free model and also reduce
 legal issues. We recommend that research funding organizations like DFG
 discuss if they expect publishing all funded software under these
-licenses, following the paradigm of “public money, public code” (Europe
-2019).
+licenses, following the paradigm of “public money, public code” (fsfe
+2017).
 
 <figure>
 <img src="figures/tree1.jpg" alt="Decision tree for contributors. This tree helps to find out whether the academic institution where the software development is located is the owner of the intellectual property (copyright)." id="fig:tree1Article" /><figcaption><strong>Decision tree for contributors</strong>. This tree helps to find out whether the academic institution where the software development is located is the owner of the intellectual property (copyright).<span label="fig:tree1Article"></span></figcaption>
@@ -1533,7 +1533,7 @@ Roles Taxonomy):
 
 -   **Writing review & editing:** Anzt, Appel, Bach, Bader, Brusch,
     Druskat, Friedl, Funk, Herrmann, Loewe, Löffler, Rack, Reina,
-    Renard, Seemann, Struck, Thiele, Uekermann
+    Renard, Seemann, Seibold, Struck, Thiele, Uekermann
 
 Supplementary Material
 =====================
