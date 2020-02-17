@@ -249,7 +249,7 @@ Why Sustainable Research Software in the First Place?
 > project. For her PhD thesis, she wants to crunch some data. Her
 > colleague recommends to learn some Boa, which is an all-purpose
 > programming language often used in researchonomy. Luckily, the UofA
-> runs regular Software Carpentry courses for researchers, including a
+> runs regular Software Plumbery courses for researchers, including a
 > Boa course. Kim takes the course and gains a solid understanding of
 > the basics of the Hash shell, version control with Tig, and the basics
 > of Boa. She starts writing scripts, which help her a lot with the data
