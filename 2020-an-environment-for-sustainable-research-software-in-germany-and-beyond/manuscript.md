@@ -95,7 +95,7 @@ affiliations:
 26. University Library, University of Stuttgart, Germany and 
 27. Zentrum für Medien-, Kommunikations- und Informationsforschung (ZeMKI), Universität Bremen, Germany and
 28. European Molecular Biology Laboratory, Heidelberg, Germany and 
-29. Center for Mechanics, Uncertainty and Simulation in Engineering, Technische Universität Braunschweig, Germany and 
+29. Center for Mechanics, Uncertainty and Simulation in Engineering (MUSEN), Technische Universität Braunschweig, Germany and 
 30. eScience Division, Federal Institute for Materials Research and Testing, Berlin, Germany and 
 31. Konrad-Zuse-Zentrum für Informationstechnik Berlin (ZIB), Germany and 
 32. FIZ Karlsruhe - Leibniz Institute for Information Infrastructure, Germany and
