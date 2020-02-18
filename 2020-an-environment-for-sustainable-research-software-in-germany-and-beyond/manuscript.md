@@ -385,7 +385,7 @@ shortcoming, we have identified the following challenges:
 
 -   **Legal issues**: Many obstacles for research software pertain to
     legal issues, such as applicable licensing (Morin, Urban, and Sliz
-    2012b), and decisions about license types.
+    2012), and decisions about license types.
 
 -   **Funding issues**: Despite some individual initiatives (Katz and
     Ramnath 2015; DFG 2016, 2019b; Chan Zuckerberg Initiative n.d.),
@@ -1047,7 +1047,7 @@ specifically designed for research software development and sustained
 research software maintenance to make research software a first class
 citizen in the research landscape. For example, software projects
 enhancing research and fulfilling the sustainability criteria detailed
-in section  on p.  may be entitled for sustained funding as long as they
+above may be entitled for sustained funding as long as they
 live up to the standards and remain a central component of the research
 landscape.
 
@@ -1409,7 +1409,7 @@ We see it as an essential part of the sustainability of research to
 enable the free distribution of research software. There are a variety
 of open source software (OSS) licensing models (ranging from permissive
 to copyleft; for further information, see (ifrOSS 2019) (tl;drLegal
-2019) (Morin, Urban, and Sliz 2012a)). The use of a FSF- or OSI-approved
+2019) (Morin, Urban, and Sliz 2012)). The use of a FSF- or OSI-approved
 license for example would enable a truly free model and also reduce
 legal issues. We recommend that research funding organizations like DFG
 discuss if they expect publishing all funded software under these
@@ -1871,13 +1871,9 @@ Incorrect?” *Protein Science* 16 (6): 1013–6.
 Merali, Zeeya. 2010. “Computational Science: ...Error.” *Nature* 467
 (7317): 775–77. <https://doi.org/10.1038/467775a>.
 
-Morin, Andrew, Jennifer Urban, and Piotr Sliz. 2012a. “A Quick Guide to
+Morin, Andrew, Jennifer Urban, and Piotr Sliz. 2012. “A Quick Guide to
 Software Licensing for the Scientist- Programmer.” *PLoS Computational
 Biology* 8 (7): e1002598.
-<https://doi.org/10.1371/journal.pcbi.1002598>.
-
-———. 2012b. “A Quick Guide to Software Licensing for the
-Scientist-Programmer.” *PLOS Computational Biology* 8 (7): e1002598.
 <https://doi.org/10.1371/journal.pcbi.1002598>.
 
 Mönnich, Michael W. 2001. “KVK - a Meta Catalog of Libraries.” *LIBER
