@@ -176,8 +176,8 @@ of the developer’s position. Part of the problem is the reluctance to
 accept research software engineering as an academic profession that
 results in a lack of incentives to produce high-quality software:
 producing high software quality is resource-demanding, and although the
-San Francisco Declaration on Research Assessment (DORA (“San Francisco
-Declaration on Research Assessment” 2012)) demands for a change in the
+San Francisco Declaration on Research Assessment (DORA, 2012)
+demands for a change in the
 academic credit system, many institutions base promotion and
 appointments on traditional metrics like the Hirsch index (Hirsch 2005).
 It is obvious that an extraordinary amount of idealism is required to
