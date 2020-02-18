@@ -367,7 +367,7 @@ shortcoming, we have identified the following challenges:
     as provided by Software Carpentries, advanced courses for Research
     Software Engineering are not widely available (with the notable
     exception of the CodeRefinery project (The CodeRefinery Project
-    n.d.)). targeted curricula must be developed and updated regularly,
+    n.d.)). Targeted curricula must be developed and updated regularly,
     and specialized instructors need to be trained.
 
 -   **Lack of impact measures**: It is unclear how to measure the impact
