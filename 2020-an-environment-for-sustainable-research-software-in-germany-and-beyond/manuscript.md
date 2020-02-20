@@ -289,7 +289,7 @@ Why Sustainable Research Software in the First Place?
 > to process researchonomic data measured in a neighbourhood of her
 > hometown. She is invited to give a talk at the local office of Siren,
 > a global tech company, which look to adopt *hal9k*, and pay Kim
-> handsomely. So handsomely in fact, that Kim can pay a student
+> a generous speaker honorarium. So generous in fact, that Kim can pay a student
 > assistant for a full year from the money.
 
 Our credibility as researchers in society hinges on the notion of proper
