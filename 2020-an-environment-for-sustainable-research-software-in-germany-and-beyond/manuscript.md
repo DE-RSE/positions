@@ -314,7 +314,7 @@ understandable, documented, publicly released, adequately published
 (i.e. in persistently identifiable form as software source code (Smith
 et al. 2016), and potentially in an additional paper which describes the
 software concept, design decisions and development rationale), actively
-maintained, and  (Merali 2010; Barnes 2010; Tse 2010).
+maintained, and (re-)usable (Merali 2010; Barnes 2010; Tse 2010).
 
 To make it possible to reproduce computationally supported research, a
 software that has been used must continue to exist in the first place,
