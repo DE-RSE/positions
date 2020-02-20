@@ -238,7 +238,7 @@ infrastructure is needed for sustainable software development; vi) legal
 aspects of research software development in academia.
 
 While we specifically focus on the research software landscape in
-Germany, we are convinced that much of the analysis, findings, and
+Germany, we are convinced that many of the analyses, findings, and
 recommendations may carry beyond. We want to address RSEs that are all
 experiencing similar challenges, newcomers to the field of research
 software development, but also political and academic decision makers to
