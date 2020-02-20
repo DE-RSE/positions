@@ -341,7 +341,7 @@ shortcoming, we have identified the following challenges:
 
 -   **Lack of awareness**: Research software sustainability
     (cf. (Venters et al. 2014; Goble 2014; Druskat 2016; Katz 2018)) and
-    its importance is lacking acceptance, and research software
+    its importance is lacking visibility as well as acceptance, and research software
     engineering in its implementation as sustainable software
     development and software maintenance is not sufficiently supported,
     both in Germany and beyond (Brett et al. 2017; Akhmerov, Cruz,
@@ -351,7 +351,7 @@ shortcoming, we have identified the following challenges:
 -   **Lack of expertise**: Knowledge about how to create, maintain, and
     support sustainable research software is emerging (Wilson et al.
     2014, 2017; Stodden and Miguez 2014) but has not yet permeated
-    related activities within organizations, specifically teaching,
+    related activities within organizations - specifically teaching,
     mentoring, and consultancy. This lack of expertise can also lead to
     divergence between software design and community uptake, e.g., if
     the software fails to meet the needs of the target group, or is
@@ -365,7 +365,7 @@ shortcoming, we have identified the following challenges:
     used, and valued in the different academic disciplines. This also
     makes it hard to train researchers for sustainable software
     development, as beyond basic training in computational research such
-    as provided by Software Carpentries, advanced courses for Research
+    as provided by The Carpentries, advanced courses for Research
     Software Engineering are not widely available (with the notable
     exception of the CodeRefinery project (The CodeRefinery Project
     n.d.)). Targeted curricula must be developed and updated regularly,
@@ -383,6 +383,7 @@ shortcoming, we have identified the following challenges:
     there is not yet enough evidence for whether centralized or
     decentralized facilities should be favored to further research
     software sustainability (Kuchinke et al. 2016; Loewe et al. 2019).
+    This in turn leads to a lack of infrastructure as a whole. 
 
 -   **Legal issues**: Many obstacles for research software pertain to
     legal issues, such as applicable licensing (Morin, Urban, and Sliz
@@ -436,8 +437,8 @@ software, we argue that their individual motivation can differ quite
 significantly:
 
 The **general public** benefits from research which supports the common
-good, in other terms: creates a better world, faster. They also have an
-interest in economical use of their tax money, to which duplicated
+good, in other terms: creates a better world, faster. Tax payers have an
+interest in economical use of their tax money, to which duplicated or flawed
 efforts to create research software – in contrast to software reuse – is
 contrary. A subset of this group may be interested in sustainable, i.e.,
 re-usable and understandable, software as part of citizen science.
