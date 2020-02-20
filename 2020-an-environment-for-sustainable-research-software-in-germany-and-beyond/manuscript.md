@@ -270,7 +270,7 @@ Why Sustainable Research Software in the First Place?
 > researchonomists. Thankfully, Kim’s project PI had applied for 3 RSE
 > person months in their grant, so the project enlists an RSE from the
 > central team. Over the next three months, Kim and the RSE work
-> together to build the library, document it, license it under the
+> together to build the library, document it, test it, license it under the
 > permissive Comanche license, update the TigHub repository to let
 > others contribute, introduce automated builds for every code change
 > via a continuous integration platform, and make the library citable.
