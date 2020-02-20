@@ -329,15 +329,15 @@ Currently, creating and using sustainable research software is not
 sufficiently incentivized. To evaluate where to address this
 shortcoming, we have identified the following challenges:
 
--   **Lack of benefit for the individual**: The primary motivation for
+**Lack of benefit for the individual**: Currently, the primary motivation for
     sustainable research software is the common benefit, rather than the
-    individual benefit. While directing resources towards sustainable
-    research software may in the short run yield disadvantages for the
-    developing individual (e.g., fewer paper publications) (Bangerth and
-    Heister 2014; Prins et al. 2015), it is clearly beneficial for the
-    research community as a whole, as it enables better and more
-    research by freeing funds for actual research rather than
-    (repetitive) software development.
+    individual benefit. It is  clearly beneficial for the
+    research community as a whole to direct resources towards sustainable
+    research software, as it enables better and more
+    research by freeing funds for domain research rather than
+    (repetitive) software development. But the developers are often even at a disadvantage
+    (e.g., they publish less papers, Bangerth and Heister 2014; Prins et al. 2015), which
+    in turn prevents sustainable research software.
 
 -   **Lack of awareness**: Research software sustainability
     (cf. (Venters et al. 2014; Goble 2014; Druskat 2016; Katz 2018)) and
