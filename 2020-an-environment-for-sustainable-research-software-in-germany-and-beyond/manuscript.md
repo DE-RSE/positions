@@ -325,7 +325,7 @@ should support reuse scenarios to avoid duplication of efforts, and
 unneeded drain of resources. Therefore, if research software is publicly
 funded, it should be freely available under an Open Source Software license.
 
-Currently, creating and using sustainable research software is not yet
+Currently, creating and using sustainable research software is not 
 sufficiently incentivized. To evaluate where to address this
 shortcoming, we have identified the following challenges:
 
