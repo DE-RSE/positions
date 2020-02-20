@@ -319,6 +319,7 @@ maintained, and (re-)usable (Merali 2010; Barnes 2010; Tse 2010).
 To make software-based research (and with that almost any research)
 reproducible, the used software must continue to exist. Furthermore, it must
 continue to be usable, understandable, and results return the
+same results (or document potential changes and bug fixes) in the
 evolving software and hardware environment. Moreover, the software
 should support reuse scenarios to avoid duplication of efforts, and
 unneeded drain of resources. If it is publicly funded, it should also be
