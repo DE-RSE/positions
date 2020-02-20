@@ -468,8 +468,8 @@ reputation on high quality software and software citation (Smith et al.
 RSEs, creating sustainable research software is part of an attractive,
 intellectually challenging, and satisfying work environment.
 
-**Research leaders** as well as **research performing organizations
-(RPO)** mainly focus on the economic aspects and management of research,
+**Research leaders** as well as **research performing organizations**
+mainly focus on the economic aspects and management of research,
 i.e., available funds, people, and time employed to optimize research
 output. Both need to make sure that their employees continually improve
 their qualification and generate impact to improve their standing in the
@@ -478,7 +478,7 @@ and enabling the creation of sustainable research software advances
 their visibility in the field and makes their research endeavors both
 more future-proof, and more easily traceable, reproducible, and
 verifiable and thus more likely to attract additional resources
-(including human resources). **RPOs** can additionally benefit from
+(including human resources). **Research performing organizations** can additionally benefit from
 sustainable research software if it can be reused in other areas,
 creating synergies between different research disciplines. These
 synergies typically free resources that can then be used in areas other
