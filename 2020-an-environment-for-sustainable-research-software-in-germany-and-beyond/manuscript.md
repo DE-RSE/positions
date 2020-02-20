@@ -329,7 +329,7 @@ Currently, creating and using sustainable research software is not
 sufficiently incentivized. To evaluate where to address this
 shortcoming, we have identified the following challenges:
 
-**Lack of benefit for the individual**: Currently, the primary motivation for
+-   **Lack of benefit for the individual**: Currently, the primary motivation for
     sustainable research software is the common benefit, rather than the
     individual benefit. It is  clearly beneficial for the
     research community as a whole to direct resources towards sustainable
@@ -338,6 +338,15 @@ shortcoming, we have identified the following challenges:
     (repetitive) software development. But the developers are often even at a disadvantage
     (e.g., they publish less papers, Bangerth and Heister 2014; Prins et al. 2015), which
     in turn prevents sustainable research software.
+
+-   **Lack of suitable incentive systems**: Contributions to research
+    that are not traditional text-based products (i.e., papers or
+    monographs) are still not sufficiently awarded, or not awarded at
+    all, mainly due to the missing implementation of mandatory software
+    citation  (Smith et al. 2016; Hafer and Kirkpatrick 2009; Howison
+    and Bullard 2016; Li, Yan, and Feng 2017; Li, Chen, and Yan 2019;
+    Park and Wolfram 2019; Pan et al. 2019; Doerr et al. 2019; Druskat
+    2019; Katz, Bouquin, et al. 2019).
 
 -   **Lack of awareness**: Research software sustainability
     (cf. (Venters et al. 2014; Goble 2014; Druskat 2016; Katz 2018)) and
@@ -394,14 +403,6 @@ shortcoming, we have identified the following challenges:
     funding for the creation, maintenance, and support of sustainable
     research software is still scarce.
 
--   **Lack of suitable incentive systems**: Contributions to research
-    that are not traditional text-based products (i.e., papers or
-    monographs) are still not sufficiently awarded, or not awarded at
-    all, mainly due to the missing implementation of mandatory software
-    citation  (Smith et al. 2016; Hafer and Kirkpatrick 2009; Howison
-    and Bullard 2016; Li, Yan, and Feng 2017; Li, Chen, and Yan 2019;
-    Park and Wolfram 2019; Pan et al. 2019; Doerr et al. 2019; Druskat
-    2019; Katz, Bouquin, et al. 2019).
 
 -   **Slow adoption of Research Software Engineers as a profession**:
     Career options for research software work are not fully determined,
