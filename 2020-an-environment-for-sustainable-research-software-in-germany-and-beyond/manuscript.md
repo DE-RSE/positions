@@ -322,8 +322,8 @@ continue to be usable, understandable, and results return the
 same results (or document potential changes and bug fixes) in the
 evolving software and hardware environment. Moreover, the software
 should support reuse scenarios to avoid duplication of efforts, and
-unneeded drain of resources. If it is publicly funded, it should also be
-open source and freely accessible.
+unneeded drain of resources. Therefore, if research software is publicly
+funded, it should be freely available under an Open Source Software license.
 
 Currently, creating and using sustainable research software is not yet
 sufficiently incentivized. To evaluate where to address this
