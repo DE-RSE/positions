@@ -534,6 +534,10 @@ cost in corporate research and development. Helping to sustain research
 software may also enable positive outreach for companies across industry
 and into society.
 
+**Open source developers** can get involved in research software, even if they 
+are not employed by a research institution. This can help them get in contact with
+other developers in the field, and may potentially lead to collaborations or job opportunities in research based on this extended experience.
+
 How to Decide Which Software to Sustain?
 ========================================
 
