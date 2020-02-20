@@ -317,7 +317,7 @@ software concept, design decisions and development rationale), actively
 maintained, and (re-)usable (Merali 2010; Barnes 2010; Tse 2010).
 
 To make software-based research (and with that almost any research)
-software that has been used must continue to exist in the first place,
+reproducible, the used software must continue to exist. Furthermore, it must
 but also continue to be usable, understandable, and reproducible in the
 evolving software and hardware environment. Moreover, the software
 should support reuse scenarios to avoid duplication of efforts, and
