@@ -316,7 +316,7 @@ et al. 2016), and potentially in an additional paper which describes the
 software concept, design decisions and development rationale), actively
 maintained, and (re-)usable (Merali 2010; Barnes 2010; Tse 2010).
 
-To make it possible to reproduce computationally supported research, a
+To make software-based research (and with that almost any research)
 software that has been used must continue to exist in the first place,
 but also continue to be usable, understandable, and reproducible in the
 evolving software and hardware environment. Moreover, the software
