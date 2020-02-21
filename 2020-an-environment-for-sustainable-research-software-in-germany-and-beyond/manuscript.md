@@ -1117,8 +1117,8 @@ tools for distributed software development and software management as
 central research infrastructure. An important aspect in this context is
 the cataloging of research software to reduce the duplication of
 development efforts. This can efficiently be realized by promoting the
-registration of all research software efforts with an ORCID iD (“ORCID”
-2019) and developing a tool that allows to explore the research software
+registration of all research software efforts with an ID
+and developing a tool that allows to explore the research software
 landscape.
 
 Quality Assurance
