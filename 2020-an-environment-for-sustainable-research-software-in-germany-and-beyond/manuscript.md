@@ -994,7 +994,7 @@ with expertise in research software development; ii) Infrastructure for
 developing, testing, validating, and benchmarking research software, and
 distributed versioning systems for collaborative software development;
 iii) Training in software design and sustainable software development;
-and iv) Community events for creating synergies between research groups
+and iv) Community management and events for creating synergies between research groups
 and software efforts.
 
 Challenges
