@@ -1058,7 +1058,7 @@ above may be entitled for sustained funding as long as they
 live up to the standards and remain a central component of the research
 landscape.
 
-University computing centers and supercomputing facilities need to
+Computing centers and supercomputing facilities for research need to
 receive earmarked resources for the support of sustainable software
 development. This funding is necessary to provide continuous integration
 services, a hardware portfolio for development, testing and benchmarking
