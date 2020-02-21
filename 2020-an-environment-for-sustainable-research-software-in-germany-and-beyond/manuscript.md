@@ -939,7 +939,7 @@ recruitment for academic positions: broaden the definition of research
 impact beyond traditional scientific publications to also include other
 impactful results. Not all researchers thinking of themselves as RSEs
 pursue a faculty position as their main career goal. However, permanent
-non-professorial academic faculty positions are rare within the German
+academic non-faculty positions are rare within the German
 academic system, also due to the lack of a defined **RSE role**. We
 recommend research institutions to leverage the benefit of dedicated
 RSEs by establishing attractive long-term career options in the academic
