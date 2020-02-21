@@ -1088,7 +1088,7 @@ Which Infrastructure is Needed to Sustain Research Software?
 > a registry and [Software Heritage](softwareHeritage.org) archive-based long-term repository
 > for research software on a national level - ingests *hal9k* releases
 > with complete metadata: citation metadata, the *hal9k* provenance
-> graph and computational environment information, ORCID iDs, etc. and
+> graph and computational environment information, ORCIDs, etc. and
 > provides its own DOIs for versions under a concept DOI. The community
 > reviews all code and documentation changes that are contributed to
 > *hal9k* via the central TigHub, and the Hub’s CI system Alfred builds,
