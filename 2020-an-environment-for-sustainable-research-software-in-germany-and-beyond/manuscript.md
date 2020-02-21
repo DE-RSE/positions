@@ -156,7 +156,7 @@ At the same time, sustaining research software, and in particular open
 research software, comes with a number of challenges. Commercial
 research software often has revenue flows that can facilitate
 sustainable software development, maintenance, and documentation as well
-as the operation of adequate infrastructure. However, a large share of
+as the operation of adequate infrastructure. A large share of researchers (want to or have to) 
 researchers base their research on software that was developed in-house
 or as community effort. Many of these software stacks can not be
 sustained – often because research software was not a first class
