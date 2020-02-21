@@ -867,7 +867,7 @@ Challenges
 ----------
 
 We are currently facing a **lack of awareness** for the importance of
-research software as discussed in the section on p. . Moreover, there is
+research software as discussed above. Moreover, there is
 **little recognition** for the efforts put into software development and
 maintenance. In consequence, software development in academic settings
 is mostly considered as a means to an end and sustainability is often
@@ -1133,7 +1133,7 @@ project-external software reviews should be included in the service
 curriculum, which requires either establishing a workforce of skilled
 and experienced software development experts, or drawing on expertise of
 external experts such as the Software Sustainability Institute (SSI)
-(see section  on p.  for details).
+(see above for details).
 
 Scalable Computing Resources
 ----------------------------
@@ -1212,7 +1212,7 @@ metadata (e.g. contributors, contact, keywords, linked publications,
 etc.) and publishing platforms have to enable persistent citing, which
 in turn benefits research evaluation. Selection and curation of software
 (probably by a data/software librarian) for publication and discovery
-are certainly challenging (compare section  on p. ).
+are certainly challenging.
 
 We consider GitHub or GitLab as collaborative working environments and
 repositories like [Zenodo.org](Zenodo.org) appropriate publication
