@@ -1193,7 +1193,7 @@ Institute](https://www.software.ac.uk/), which serves as a national
 contact for all aspects related to research software. The UK SSI also
 publishes best practice guidelines for the [Software/Systems Development
 Life Cycle (SDLC)](https://www.software.ac.uk/resources).
-
+Furthermore we recommend establishing masters degrees in research software engineering.
 Research Software Discovery and Publication
 -------------------------------------------
 
@@ -1214,7 +1214,7 @@ in turn benefits research evaluation. Selection and curation of software
 (probably by a data/software librarian) for publication and discovery
 are certainly challenging.
 
-We consider GitHub or GitLab as collaborative working environments and
+We consider GitLab or GitHub as collaborative working environments and
 repositories like [Zenodo.org](Zenodo.org) appropriate publication
 platforms, because the latter mint DOIs, allow versioning and are
 publicly funded for long-term access. GitHub, Figshare, and Mendeley
@@ -1224,9 +1224,10 @@ aforementioned metadata standards, it is advisable to document source
 code, e.g., using MarkDown (with Doxygen tooling). Metadata and
 citations play a role in beneficial tools like PIDgraph,
 [DataCite.org](DataCite.org), [CrossRef.org](CrossRef.org), which
-utilize Persistent Identifiers (PIDs) like DOI. Another solution to
+utilize Persistent Identifiers (PIDs) like DOIs. Another solution to
 discovery are (mostly) disciplinary software indices like swMATH (swMATH
-2019) or the Astronomy Source Code Library (ASCL.net 2019). These
+2019) or the Astronomy Source Code Library (ASCL.net 2019) or language 
+focused systems like CRAN (https://cran.r-project.org) for R. These
 started as national endeavors and became platforms of global importance.
 For Germany, we assume that the Nationale Forschungsdateninfrastruktur
 (NFDI) will put effort into creating discovery platforms that ease
