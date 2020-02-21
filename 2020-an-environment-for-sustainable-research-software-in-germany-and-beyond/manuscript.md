@@ -1644,7 +1644,7 @@ Hetherington, Mark Stillwell, and Claire Wyatt. 2017. “Research Software
 Engineers: State of the Nation Report 2017.”
 <https://doi.org/10.5281/zenodo.495360>.
 
-Bundesministerium der Justiz und für Verbraucherschutz. 2007. “Gesetz
+Bundesministerium der Justiz und für Verbraucherschutz. 2017. “Gesetz
 über Befristete Arbeitsverträge in Der Wissenschaft.”
 [www.gesetze-im-internet.de/wisszeitvg](www.gesetze-im-internet.de/wisszeitvg).
 
