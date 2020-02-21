@@ -883,7 +883,7 @@ development process itself has research character. Obviously, developing
 research software requires not only domain knowledge but also software
 development skills, and the researchers leading the software development
 process are often domain experts with substantial software development
-experience. However, the current academic system in Germany does not
+experience, making them extremely valuable members of the research community. However, the current academic system in Germany does not
 provide a defined **RSE role**. Limited-term positions are, at least
 currently within the main German academic system, often effectively the
 end of their career path, sometimes even a dead end. The challenge here
