@@ -1084,7 +1084,7 @@ Which Infrastructure is Needed to Sustain Research Software?
 > Kim and her team collaborate with the National Research Software
 > Engineering Consortium to set up *hal9k* on the Consortium’s
 > distributed TigHub instance, and organize world-wide access to it via
-> the NRSEC-AAI. Going forward, the Consortium’s Research Software Hub -
+> the NRSEC-AAI federation. Going forward, the Consortium’s Research Software Hub -
 > a registry and Software Heritage Archive-based long-term repository
 > for research software on a national level - ingests *hal9k* releases
 > with complete metadata: citation metadata, the *hal9k* provenance
