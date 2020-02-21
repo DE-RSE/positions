@@ -842,7 +842,7 @@ career paths for research software engineers (RSEs) that are attractive
 and include permanency. While creating permanent positions in the German
 academic system below the faculty level is an actively discussed topic
 overall (Vereinigung der Kanzlerinnen und Kanzler der Universitäten
-Deutschlands 2019), we specifically focus on the needs stemming from the
+Deutschlands 2019), we specifically focus on the needs originating from the
 development and maintenance of research software here.
 
 As already mentioned, research software development not only requires
