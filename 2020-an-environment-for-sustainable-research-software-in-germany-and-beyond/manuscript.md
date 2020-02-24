@@ -157,17 +157,17 @@ research software, comes with a number of challenges. Commercial
 research software often has revenue flows that can facilitate
 sustainable software development, maintenance, and documentation as well
 as the operation of adequate infrastructure. A large share of researchers (want to or have to) 
-researchers base their research on software that was developed in-house
-or as community effort. Many of these software stacks can not be
+base their research on software that is often developed in-house or as a community
+effort. Many of these software stacks can not be
 sustained – often because research software was not a first class
 deliverable in a research project and hence remained in a prototype
 state, or because of missing incentives and resources to maintain the
 software after project funding ended. Another fundamental difference to
 industrial software development is that most developers of academic
 research software (often doctoral students or postdoctoral researchers)
-never receive training in sustainable software development. In
+never receive training in sustainable software development or consider themselves professional software developers (cite survey here). In
 particular, as they see themselves usually as the primary user of a
-software product, there are virtually no incentives to invest in
+software product, there are no strong incentives to invest in
 sustainability measures such as code documentation or portability. In
 combination with most researchers holding only temporary positions, this
 results in a highly inefficient system where millions of lines of code
@@ -230,11 +230,11 @@ Unfortunately, guidelines and policies for sustainable research software
 development in Germany are still lacking and long-term funding
 strategies are missing. This all leads to unmet requirements and
 unsolved challenges that we want to highlight in this paper by
-elaborating on i) why sustainable research software development needs to
+elaborating on i) why research software engineering needs to
 be considered a first class citizen in the research landscape; ii) how
 to decide which software to sustain; iii) who sustains research
 software; iv) how software can be funded sustainably; v) what
-infrastructure is needed for sustainable software development; vi) legal
+infrastructure is needed for sustainable software development; and vi) legal
 aspects of research software development in academia.
 
 While we specifically focus on the research software landscape in
