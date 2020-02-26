@@ -678,7 +678,7 @@ tutorial-based and a more objective criteria-based software evaluation
 scheme (Jackson, Crouch, and Baxter 2019), the latter being available as
 an online form (SSI 2019a). [ROpenSci](https://devguide.ropensci.org/softwarereviewintro.html) provides software reviews
 for R developers, which have been very successful in the 
-community. 
+community. The [review criteria](https://joss.readthedocs.io/en/latest/review_criteria.html#) of the Journal of Open Source Software (JOSS) focus on the aspects license, documentation, functionality, and tests. This list of essential items should be fulfilled by all research software that wants to be considered not only for publication but also for sustained funding. 
 
 We drew inspiration from all these works and suggest a set of criteria
 to base reviews for sustainable funding on. This set comprises
