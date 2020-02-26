@@ -1005,7 +1005,7 @@ Challenges
 
 Short-term engagement of (young) researchers raises the question of how
 to maintain a constant level of expertise within a developer team and
-preventing knowledge drain concerning domain knowledge and software
+prevent knowledge drain concerning domain knowledge and software
 engineering skills. Conversely, the permanent engagement of qualified
 personnel requires to offer career perspectives, especially due to the
 fact that academia competes with industry for the same people. A
@@ -1068,7 +1068,7 @@ services, a hardware portfolio for development, testing and benchmarking
 software, as well as personnel for training domain researchers in
 software design and the proper usage of the services.
 
-The creation and maintenance of training material for general research
+The creation and maintenance of training materials for general research
 software engineering education and the software-specific documentation
 and tutorial creation needs to be reflected in funding opportunities.
 This can either happen by dedicating modules of research or software
