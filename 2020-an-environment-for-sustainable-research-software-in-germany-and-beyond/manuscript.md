@@ -69,6 +69,7 @@ author:
 - 'Benjamin Uekerman 40'
 - 'Stefan Unger 41'
 - 'Rudolf Weeber 25'
+ 'Piotr Wojciech Dabrowski 48'
 affiliations:
 1. Steinbuch Centre for Computing, Karlsruhe Institute of Technology (KIT), Germany and 
 2. Innovative Computing Lab, University of Tennessee, Knoxville, TN, USA and 
@@ -116,7 +117,8 @@ affiliations:
 44. Helmholtz Zentrum München, Germany
 45. Max Planck Institue of Molecular Cell Biology and Genetics, Dresden, Germany
 46. Deutsches Krebsforschungszentrum, Heidelberg, Germany
-47. Chair of Scientific Computing in Computer Science, Technical University Munich, Germany
+47. Chair of Scientific Computing in Computer Science, Technical University Munich, Germany and
+48. School of Computing, Communication and Business, Hochschule für Technik und Wirtschaft Berlin, Germany
 - * axel.loewe@kit.edu, gunnar.seemann@universitaets-herzzentrum.de
 - † Contributed equally
 bibliography: 'references.bib'
@@ -132,7 +134,7 @@ Background
 ==========
 
 > Meet Kim, who is currently a post-grad PhD student in researchonomy at
-> the University of Arcadia. We will follow Kim’s fictional career in
+> the University of Arcadia (UofA). We will follow Kim’s fictional career in
 > order to understand different aspects of research software
 > sustainability. Note that in Kim’s world, many of the changes this
 > paper calls for have already been implemented.  
@@ -554,7 +556,7 @@ How to Decide Which Software to Sustain?
 > citations of *hal9k* and the publications for which it was used. While
 > they write the proposal, the faculty dean approaches the two to tell
 > them that based on Kim’s work, they will now negotiate about two new
-> members for the central RSE team with the university’s provost for research
+> RSEs for the central RSE team with the university’s provost for research
 > and plan to consider candidates with a background in
 > researchonomics.  
 > When they get the decision letter from the research funding
@@ -581,7 +583,7 @@ beginning on for new projects. The criteria listed below, or a subset
 such as the “good enough” practices proposed by Wilson et al. (Wilson et
 al. 2017), are valuable throughout the development process (including
 early phases) for almost all types of research software applications.
-“Classical” research funding schemes, should acknowledge the need to
+“Classical” research funding schemes should acknowledge the need to
 follow best practices during the development of new software and allow
 to factor in appropriate resources to design and implement for
 sustainability. In this section, we focus on the question which software
@@ -608,16 +610,17 @@ also respecting differences between fields (e.g. citation rates between
 humanities and life sciences). The challenge to do justice to a wide
 spectrum is e.g. reflected by suggesting criteria comprising different
 levels (Hong 2014). Interestingly, one third of research software
-repositories have a lifespan less than one day (median: 15
-days, Hasselbring et al. 2019) indicating that many codes are only made
-available publicly (as increasingly encouraged or required by
+repositories have a lifespan (defined as the time from the first time
+any code was uploaded to the last contribution) of less than one day (median: 15
+days) (Hasselbring et al. 2019) indicating that many codes are only made
+available publicly for the publication in a journal (as increasingly encouraged or required by
 journals (Resnik et al. 2019) and associated with higher
-impact (Vandewalle 2012)) but are not maintained. One of the major
+impact (Vandewalle 2012)) but are not maintained thereafter. One of the major
 challenges in the endeavor to define a selection scheme for sustainable
 funding of research software is to organize a fair and transparent
 review process. We believe that it is important that the review process
 is conducted by experts, or teams of experts, that have a strong
-background both on software engineering as well on the domain-specific
+background both on software engineering as well as on the domain-specific
 aspects, the latter because certain criteria often exist on a spectrum
 that is most likely shaped by the specific demands of the respective
 research community. While an assessment based purely on quantitative
@@ -735,11 +738,11 @@ consideration of the research domain. These comprise (11) the
 availability of examples (comprising input data and reference results),
 (12) mechanisms for extensibility (software modularity) as one aspect of
 software architecture (Venters et al. 2018) and (13) interoperability
-(APIs / common and open data formats for input and output), (14) testing
-infrastructure including but not strictly requiring unit tests,
-performance tests, regression tests, integration tests, end-to-end tests
-(ideally run in an automated fashion in a continuous integration
-environment), (15) tagged releases (considering their frequency, and
+(APIs / common and open data formats for input and output), (14) a test suite
+(including at least some of the following: unit tests, regression tests,
+integration tests, end-to-end tests, performance tests; ideally run in an
+automated fashion in a continuous integration environment),
+(15) tagged releases (considering their frequency, and
 availability for end users in terms of binary packages for major
 operating systems, or availability via package managers or containers),
 (16) no (large-scale) re-implementations for functionality for which
