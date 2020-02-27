@@ -300,9 +300,14 @@ digitalization of research has introduced complex digital research
 outputs, such as software and data sets. Although first
 recommendations (Katerbow and Feulner 2018) and policies (Scheliga et
 al. 2019) exist, they are far from being widely adapted. It is still
-somewhat unclear how to translate good research practice into research
+somewhat unclear how to translate good research practice into good research
 software practice, for example in terms of validity and reproducibility,
-but also pertaining to the responsible use of resources.
+but also pertaining to the responsible use of resources. The damage
+that failing to do is causing both to the progress of the research community
+and to the credibility of academic research in society is becoming increasingly clear
+with the growth of the replication crisis - while the lack of universally
+agreed-upon and supported good research software practice is not the main
+reason for that crisis, it clearly is a contributing factor.
 
 While it is obvious that software qualifies as a potentially re-usable
 digital artifact, the additional benefit of not just reproducing a given
@@ -397,7 +402,7 @@ shortcoming, we have identified the following challenges:
     This in turn leads to a lack of infrastructure as a whole. 
 
 -   **Legal issues**: Many obstacles for research software pertain to
-    legal issues, such as applicable licensing (Morin, Urban, and Sliz
+    legal issues, such as applicable licensing  and compatibility of licenses (Morin, Urban, and Sliz
     2012), and decisions about license types.
 
 -   **Funding issues**: Despite some individual initiatives (Katz and
@@ -406,7 +411,7 @@ shortcoming, we have identified the following challenges:
     research software is still scarce.
 
 
--   **Slow adoption of Research Software Engineers as a profession**:
+-   **Slow adoption of Research Software Engineering as a profession**:
     Career options for research software work are not fully determined,
     although career paths are emerging in some regions. Initially, the
     RSE initiative in the UK has made progress in this area, and RSE
@@ -509,7 +514,7 @@ increase visibility and discoverability for research software through
 their services and advance the competitiveness of their organization or
 geopolitical unit. In addition, libraries also use research software and
 would thus benefit directly from a more sustainable research software
-landscape. In addition, by using free and open source research software,
+landscape. Last but not least, by using free and open source research software,
 libraries could avoid expensive licenses and often insufficiently
 adapted commercial software.
 
