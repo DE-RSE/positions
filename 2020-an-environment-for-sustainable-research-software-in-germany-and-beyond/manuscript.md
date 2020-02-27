@@ -168,7 +168,7 @@ software after project funding ended. Another fundamental difference to
 industrial software development is that most developers of academic
 research software (often doctoral students or postdoctoral researchers)
 never receive training in sustainable software development or consider themselves professional software developers (cite survey here). In
-particular, as they see themselves usually as the primary user of a
+particular, as they see themselves usually as the primary users of a
 software product, there are no strong incentives to invest in
 sustainability measures such as code documentation or portability. In
 combination with most researchers holding only temporary positions, this
