@@ -1364,7 +1364,10 @@ In addition to the rights of the people directly involved, other rights
 of third parties may also be relevant. Existing source code (e.g., other
 free/libre open source software, FLOSS), external libraries, and
 contributions from institutional cooperation partners are published and
-provided under certain licenses and their conditions must be observed.
+provided under certain licenses and their conditions must be observed 
+(which, due to incompatibilities even among open source software licenses,
+may well mean that individually reuseable pieces of software cannot be 
+reused together or in a new context).
 The nature of research careers often brings additional complications in
 the chain of rights. It happens that researchers take their software
 with them when they change institutions and develop it further during
