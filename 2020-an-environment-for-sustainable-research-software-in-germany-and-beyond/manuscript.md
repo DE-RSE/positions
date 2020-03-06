@@ -192,7 +192,7 @@ demands for a change in the
 academic credit system, many institutions base promotion and
 appointments on traditional metrics like the Hirsch index (Hirsch 2005).
 It is obvious that an extraordinary amount of idealism is required to
-write a sustainable code including documentation and installation
+write sustainable code including documentation and installation
 routines, as well as running infrastructure and giving support to others
 when the resources can be used more profitably by writing scientific
 publications based on fragile prototype software (Bangerth and Heister
