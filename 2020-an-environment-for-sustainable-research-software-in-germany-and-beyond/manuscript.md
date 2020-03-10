@@ -905,7 +905,8 @@ provide a defined **RSE role**. Limited-term positions are, at least
 currently within the main German academic system, often effectively the
 end of their career path, sometimes even a dead end. The challenge here
 is the lack of available permanent positions within the non-professorial
-academic faculty (“Mittelbau”) in Germany, as well as the already
+academic faculty (“Mittelbau”) in Germany, compounded by a lack of access to 
+these few permanent positions for research software engineers due to the already
 mentioned lack of recognition for efforts concerning research software
 for faculty appointments within domain sciences.
 
