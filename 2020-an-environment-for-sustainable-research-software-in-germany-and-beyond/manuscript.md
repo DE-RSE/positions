@@ -1206,7 +1206,7 @@ central resources are necessary that individuals and groups in the
 research software landscape can draw from.
 
 We consider Software Carpentry and similar efforts like the creation of
-the Data Science Academy in the Helmholtz Association of German Research
+the Data Science Academy [HIDA](https:\\www.helmholtz-hida.de) in the Helmholtz Association of German Research
 Centers helpful solutions to exchange and distribute knowledge. Local
 chapters of RSE groups and (inter-)national conferences will further
 foster networking and community building. We strongly recommend the
