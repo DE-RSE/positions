@@ -1245,7 +1245,7 @@ repositories like [Zenodo.org](Zenodo.org) appropriate publication
 platforms, because the latter mint DOIs, allow versioning and are
 publicly funded for long-term access. GitHub, Figshare, and Mendeley
 Data are examples of commercial enterprises with business cases in the
-background, which exploit taxpayer-funded research results. Besides the
+background, which leverage research results. Besides the
 aforementioned metadata standards, it is advisable to document source
 code, e.g., using MarkDown (with Doxygen tooling). Metadata and
 citations play a role in beneficial tools like PIDgraph,
