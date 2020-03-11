@@ -1137,7 +1137,13 @@ the cataloging of research software to reduce the duplication of
 development efforts. This can efficiently be realized by promoting the
 registration of all research software efforts with an ID
 and developing a tool that allows to explore the research software
-landscape.
+landscape. While some funding for such tools and software repositories is
+emerging (e.g. the bio.tools catalogue of bioinformatics tools funded
+as part of the European ELIXIR project, Ison, Rapacki, Ménager et al., 
+2015), a standardized extension of such efforts to the RSE community as
+a whole is necessary. However, as the experiences from ELIXIR
+demonstrate, this is a non-trivial effort that requires significant dedicated
+and long-term funding. 
 
 Quality Assurance
 -----------------
