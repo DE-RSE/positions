@@ -1,0 +1,251 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Please note that whilst this template provides a
+% preview of the typeset manuscript for submission, it
+% will not necessarily be the final publication layout.
+%
+% letterpaper/a4paper: US/UK paper size toggle
+% num-refs/alpha-refs: numeric/author-year citation and bibliography toggle
+
+\documentclass[a4paper,num-refs,numbers,sort&compress]{de-rse}
+
+%%% Journal toggle; only specific options recognised.
+%%% (Only "gigascience" and "general" are implemented now. Support for other journals is planned.)
+\reviewfrom{23 January 2020}
+\reviewto{PLACEHOLDER}
+\acceptedon{PLACEHOLDER}
+
+\usepackage{graphicx}
+\usepackage{siunitx}
+%\usepackage[numbers,sort&compress]{natbib}
+
+% Custom packages
+\usepackage{soulutf8} % TODO Remove
+\usepackage{blindtext} % TODO Remove
+\usepackage[nonumberlist]{glossaries} % TODO Check if we can put glossary items in the abbreviations section
+%\usepackage[inline]{enumitem}
+% Set graphics path
+\graphicspath{{figures/}}
+% EO Custom packages
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+\DeclareRobustCommand{\doi}[1]{\href{https://dx.doi.org/#1}{\nolinkurl{doi:#1}}}
+\DeclareRobustCommand{\urlhttps}[1]{\href{https://#1}{\nolinkurl{#1}}}
+\DeclareRobustCommand{\arxiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{arXiv:#1}}}
+% Custom commands
+% Set the Glossary section heading to null
+\renewcommand{\glossarysection}[2][]{}
+
+% Define an fbox with vertical spacing
+\newcommand*{\vsepfbox}[1]{%
+  \begingroup
+    \sbox0{\fbox{#1}}%
+    \setlength{\fboxrule}{0pt}%
+    \mbox{\kern-\fboxsep\fbox{\unhbox0}\kern-\fboxsep}%
+  \endgroup
+}
+
+\newlist{inlinelist}{enumerate*}{1}
+\setlist*[inlinelist,1]{%
+  label=(\arabic*),
+}
+% EO Custom commands
+
+%%% Flushend: You can add this package to automatically balance the final page, but if things go awry (e.g. section contents appearing out-of-order or entire blocks or paragraphs are coloured), remove it!
+% \usepackage{flushend}
+
+\title{A template for de-RSE position papers}
+
+%%% Use the \authfn to add symbols for additional footnotes, if any. 1 is reserved for correspondence emails; then continuing with 2 etc for contributions.
+\author[1,2,3,\authfn{1},\authfn{2}]{Stephan Druskat}
+\author[4,5,6,\authfn{2}]{Frank L\"offler}
+\author[7]{Kim Author}
+
+\affil[1]{Department of English Studies, Friedrich Schiller University Jena, Germany}
+\affil[2]{Institute of Simulation and Software Technology, German Aerospace Center (DLR), Germany}
+\affil[3]{Department of Computer Science, Humboldt-Universit\"at zu Berlin, Germany}
+\affil[4]{Friedrich Schiller University Jena, Germany}
+\affil[5]{Michael Stifel Center Jena, Germany}
+\affil[6]{Center for Computation and Technology, Louisiana State University, Baton Rouge, USA}
+\affil[7]{University of Arcadia, Erewhon}
+
+%%% Author Notes
+\authnote{\authfn{1}vorstand@de-rse.org; \authfn{2}Contributed equally.}
+
+%%% "Short" author for running page header
+\runningauthor{Anzt, Bach, Druskat, Löffler, Loewe, Renard, Seemann, Struck et al.}
+
+%%% The run-on number of this position paper
+\papernumber{1}
+
+% Glossaries
+\makeglossaries
+
+\newglossaryentry{RPO}
+{
+    name = {research performing organizations},
+    description = {Research groups, departments, faculties, research institutions (universities, research institutions, cross-institutional research groups, etc.), umbrella organizations, such as Helmholtz-Gemeinschaft Deutscher Forschungszentren, Max-Planck-Gesellschaft zur F\"orderung der Wissenschaften, Leibniz-Gemeinschaft, etc}
+}
+\newglossaryentry{RFO}
+{
+    name = {research funding organizations},
+    description = {Public research funding bodies but potentially also companies, foundations, associations, etc}
+}
+
+\newglossaryentry{GeopoliticalUnits}
+{
+    name = {geopolitical units},
+    description = {Governed public units, ranging from cities and councils, over federal states and countries, up to political unions such as the EU. In the context of this paper, the discussion usually focuses on the larger units (countries and political unions)}
+}
+\newglossaryentry{RSE}
+{
+    name = {Research Software Engineers (RSEs)},
+    description = {People creating and maintaining research software; this group ranges from research-focused software developers, to software engineers with a focus on research; other definitions include other roles, such as research software managers}
+}
+\newglossaryentry{DomainResearchers}
+{
+    name = {domain researchers},
+    description = {The people doing the research to advance knowledge in a field}
+}
+
+\newglossaryentry{GeneralPublic}
+{
+    name = {general public},
+    description = {Lay people that do not necessarily have specific insight regarding a research domain}
+}
+\newglossaryentry{ScientificLeaders}
+{
+    name = {research leaders},
+    description = {Heads of research groups, such as professors and other people with staff responsibility}
+}
+\newglossaryentry{Libraries}
+{
+    name = {libraries (also registries, indices)},
+    description = {Infrastructure units of research bodies such as universities, or independent organizations, which gather research outputs and their structured metadata, and provide indices, search, etc}
+}
+\newglossaryentry{InfrastructureUnits}
+{
+    name = {infrastructure units},
+    description = {Computing centers of research bodies such as universities and other research centers, as well as high-performance computing facilities}
+}
+\newglossaryentry{Industry}
+{
+    name = {industry},
+    description = {Companies conducting research or profit from available academic research software which they can directly or indirectly apply to their field}
+}
+\newglossaryentry{OSDevs}{
+    name = {independent (open source) developers},
+    description = {Project-external software developers who are not employed by the institution(s) carrying out the project.}
+}
+% EO Glossaries
+
+\begin{document}
+
+\begin{frontmatter}
+\maketitle
+\begin{abstract}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus malesuada nisi a viverra. Pellentesque id nisi commodo, vulputate libero in, blandit nisl. Aenean sed enim erat. Duis at lorem non enim dignissim fringilla. In varius posuere sapien ut luctus. Pellentesque porttitor aliquam sapien, quis vestibulum dolor condimentum vitae. Aliquam congue sem at nibh vulputate blandit. Donec in tortor ac lectus consequat tempus quis sodales nunc. Vestibulum id nisi pellentesque, maximus neque quis, facilisis elit. Donec interdum lorem congue, rhoncus dui id, scelerisque purus. Cras sed lectus quis risus convallis hendrerit. Cras in ipsum pretium, mattis sapien eu, hendrerit augue. Duis metus neque, pulvinar et lectus in, molestie mollis sapien. Sed non dolor sed odio sagittis semper aliquam quis metus. Etiam risus augue, pharetra scelerisque egestas at, tempor id leo. 
+\end{abstract}
+
+\begin{keywords}
+Semicolon-separated keywords; Lots of them
+\end{keywords}
+\end{frontmatter}
+
+% %%% Key points will be printed at top of second page
+% \begin{keypoints*}
+% \begin{itemize}
+% \item \hl{This is the first point}
+% \item \hl{This is the second point}
+% \item \hl{One last point.}
+% \end{itemize}
+% \end{keypoints*}
+
+
+\section{Background}
+\label{sec:background}
+
+Some background. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus malesuada nisi a viverra. Pellentesque id nisi commodo, vulputate libero in, blandit nisl. Aenean sed enim erat. Duis at lorem non enim dignissim fringilla. In varius posuere sapien ut luctus. Pellentesque porttitor aliquam sapien, quis vestibulum dolor condimentum vitae. Aliquam congue sem at nibh vulputate blandit. Donec in tortor ac lectus consequat tempus quis sodales nunc. Vestibulum id nisi pellentesque, maximus neque quis, facilisis elit. Donec interdum lorem congue, rhoncus dui id, scelerisque purus. Cras sed lectus quis risus convallis hendrerit. Cras in ipsum pretium, mattis sapien eu, hendrerit augue. Duis metus neque, pulvinar et lectus in, molestie mollis sapien. Sed non dolor sed odio sagittis semper aliquam quis metus. Etiam risus augue, pharetra scelerisque egestas at, tempor id leo.
+
+Vivamus aliquet quis lorem a cursus~\cite{druskatSoftwareDependenciesResearch2019}. Curabitur dapibus molestie pharetra. Aenean semper orci eu libero elementum, id ultricies est varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam convallis, eros id congue lacinia, turpis eros consectetur felis, non sodales arcu nisl iaculis risus. In placerat, elit ac pellentesque posuere, dolor justo tincidunt felis, id condimentum velit est eu enim. Ut vitae tristique nibh. Praesent luctus eleifend volutpat.
+
+Duis in tempor libero, at malesuada felis. Curabitur laoreet rutrum dui sed commodo. Curabitur vel eros massa. Sed ultricies lacinia nulla, ut imperdiet urna dignissim eget. Nam sit amet felis blandit, vulputate tortor in, semper dui. Pellentesque lorem sem, tincidunt eu sapien eget, finibus vulputate lacus. Cras ut condimentum est. Praesent vehicula aliquet tincidunt. Pellentesque vel mauris et nisl aliquet elementum. Ut ut tristique sem. Nullam pretium ex efficitur nulla ultricies malesuada. Praesent et maximus nisi. In venenatis risus ac orci molestie, quis tincidunt ligula eleifend.
+
+Ut quis semper lacus, non hendrerit nisl. Quisque scelerisque tristique libero eu iaculis. Ut eleifend leo consectetur magna egestas gravida. Praesent pellentesque massa et consectetur auctor. Nullam tincidunt nisi id eros dignissim, vel ultrices erat molestie. Sed sit amet tristique ipsum. Fusce tempus, eros vitae lacinia interdum, nunc ligula scelerisque mi, ut euismod augue sem id sapien. Fusce imperdiet dui vitae lorem scelerisque, vitae consectetur dolor egestas.
+
+Suspendisse nec fringilla massa. Nullam accumsan mi non erat elementum, sed imperdiet ligula posuere. In euismod, magna id consequat ornare, arcu dolor imperdiet arcu, a mollis tortor libero non lorem. Sed mi massa, eleifend et tristique id, hendrerit sed tellus. Nunc tincidunt, ex at pellentesque porttitor, lacus erat vulputate lectus, et tincidunt ligula odio quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam faucibus blandit nisi, et accumsan ipsum fermentum eu. Duis pulvinar tempus ligula, in condimentum erat commodo in. Sed ultrices vitae justo a sagittis. Phasellus condimentum odio ligula, et suscipit tellus ullamcorper eu. Vestibulum nec volutpat eros, et porta turpis. Nam tincidunt risus a nisi venenatis volutpat. 
+
+\subsection{A subsection}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus malesuada nisi a viverra. Pellentesque id nisi commodo, vulputate libero in, blandit nisl. Aenean sed enim erat. Duis at lorem non enim dignissim fringilla. In varius posuere sapien ut luctus. Pellentesque porttitor aliquam sapien, quis vestibulum dolor condimentum vitae. Aliquam congue sem at nibh vulputate blandit. Donec in tortor ac lectus consequat tempus quis sodales nunc. Vestibulum id nisi pellentesque, maximus neque quis, facilisis elit. Donec interdum lorem congue, rhoncus dui id, scelerisque purus. Cras sed lectus quis risus convallis hendrerit. Cras in ipsum pretium, mattis sapien eu, hendrerit augue. Duis metus neque, pulvinar et lectus in, molestie mollis sapien. Sed non dolor sed odio sagittis semper aliquam quis metus. Etiam risus augue, pharetra scelerisque egestas at, tempor id leo.
+
+\subsubsection[]{A subsubsection}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus malesuada nisi a viverra. Pellentesque id nisi commodo, vulputate libero in, blandit nisl. Aenean sed enim erat. Duis at lorem non enim dignissim fringilla. In varius posuere sapien ut luctus. Pellentesque porttitor aliquam sapien, quis vestibulum dolor condimentum vitae. Aliquam congue sem at nibh vulputate blandit. Donec in tortor ac lectus consequat tempus quis sodales nunc. Vestibulum id nisi pellentesque, maximus neque quis, facilisis elit. Donec interdum lorem congue, rhoncus dui id, scelerisque purus. Cras sed lectus quis risus convallis hendrerit. Cras in ipsum pretium, mattis sapien eu, hendrerit augue. Duis metus neque, pulvinar et lectus in, molestie mollis sapien. Sed non dolor sed odio sagittis semper aliquam quis metus. Etiam risus augue, pharetra scelerisque egestas at, tempor id leo.
+
+
+\section{Conclusions}
+% -- Hartwig: Please check whether I include all aspects in the rewritten conclusions. I tried to make it more concise, and give clear advice to the readers (funding bodies)
+Lorem ipsum. Just lorem ipsum.
+
+\section{Declarations}
+
+\subsection{List of abbreviations}\label{subsec:glossary}
+
+\printglossaries
+
+%If your manuscript contains any individual person's data in any form, consent to publish must be obtained from that person, or in the case of children, their parent or legal guardian. All presentations of case reports must have consent to publish. You can use your institutional consent form. You should not send the form to us on submission, but we may request to see a copy at any stage (including after publication). Please also confirm you have followed national guidelines on data collection and release in the place the research was carried out, for example confirming you have Ministry of Science and Technology (MOST) approval in China.
+
+% If your manuscript does not contain any individual person's data, please state ``Not applicable'' in this section.
+
+\subsection{Competing Interests}
+The authors declare that they have no competing interests.
+
+% All financial and non-financial competing interests must be declared in this
+% section. See our
+% \href{https://academic.oup.com/gigascience/pages/editorial\_policies\_and\_reporting_standards}{editorial
+%  policies} for a full explanation of competing interests. Where an author gives
+% no competing interests, the listing will read `The author(s) declare that they
+% have no competing interests'. If you are unsure whether you or any of your
+% co-authors have a competing interest please contact the editorial office.
+
+
+\subsection{Funding}
+The authors thank the some funder for funding and include the grant numbers.
+
+%% TODO: Register all the funds in FundRef (Perhaps the publisher does this?)
+% All sources of funding for the research reported should be declared. The role of the funding body in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript should be declared. Please use \href{http://www.crossref.org/fundingdata/}{FundRef} to report funding sources and include the award/grant number, and the name of the Principal Investigator of the grant.
+
+
+\subsection{Author's Contributions}
+The individual contributions of authors to this work are detailed below, following the \href{https://casrai.org/credit/}{CASRAI CRediT} (Contributor Roles Taxonomy):
+% TODO Authors, please add yourself to this list under Writing - original draft
+\begin{itemize}
+    \item \textbf{Conceptualization:}  Druskat, Löffler, Author
+    \item \textbf{Funding acquisition:} Druskat, Löffler, Author
+    \item \textbf{Investigation:} Druskat, Löffler, Author
+    \item \textbf{Project administration:} Druskat, Löffler, Author
+    \item \textbf{Visualization:} Druskat, Löffler, Author
+    \item \textbf{Writing original draft:} Druskat, Löffler, Author
+    \item \textbf{Writing review \& editing:} Druskat, Löffler, Author
+\end{itemize}
+
+\section{Acknowledgements}
+
+You.
+
+\section{Authors' information (optional)}
+
+%n/a \hl{We should delete this section}
+
+
+
+%% Specify your .bib file name here, without the extension
+%\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{figure}{0}  
+
+\section{Supplementary Material}
+
+\end{document}
