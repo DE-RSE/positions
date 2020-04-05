@@ -20,6 +20,7 @@
 
 % Custom packages
 \usepackage[nonumberlist]{glossaries} % TODO Check if we can put glossary items in the abbreviations section
+% \usepackage{flushend}
 %\usepackage[inline]{enumitem}
 % Set graphics path
 \graphicspath{{figures/}}
@@ -160,7 +161,8 @@
 \papernumber{1}
 
 % Glossaries
-\makeglossaries
+% \makeglossaries
+\makenoidxglossaries
 
 \newglossaryentry{RPO}
 {
@@ -804,7 +806,8 @@ Ultimately, we strongly advise the implementation of funding schemes for sustain
 
 \subsection{Glossary}\label{subsec:glossary}
 
-\printglossaries
+% \printglossaries
+\printnoidxglossaries
 
 % If abbreviations are used in the text they should be defined in the text at first use, and a list of abbreviations should be provided in alphabetical order.
 
@@ -910,6 +913,7 @@ The individual contributions of authors to this work are detailed below, followi
 %\bibliographystyle{unsrtnat}
 \bibliography{references}
 
+\clearpage
 
 % remove comment environment to include supplementary material in preprint PDF
 \renewcommand{\thefigure}{S\arabic{figure}}
@@ -928,35 +932,35 @@ Before you can publish, use, and/or license a software, you have to check:
 
 We also built a tree for the scenario that you have to check for already existing software (Fig.~\ref{fig:tree3}).
 
-\begin{figure}[tb]
+\begin{figure}[h!]
   \centering
   \includegraphics[scale=0.5]{tree_IP_policy}
   \caption{\textbf{Policy}. This tree recommends to check closely any policies implemented in the software developers organization.}
   \label{fig:tree0}
 \end{figure}
 
-\begin{figure}[tb]
+\begin{figure}[h!]
   \centering
   \includegraphics[scale=0.5]{figures/tree_sustainable_software}
   \caption{\textbf{Contributors}. This tree helps to find out whether the academic institution where the software development is located is the owner of the intellectual property (copyright).}
   \label{fig:tree1}
 \end{figure}
 
-\begin{figure}[tb]
+\begin{figure}[h!]
   \centering
   \includegraphics[scale=0.5]{tree_new_SW_development}
   \caption{\textbf{Code history}. The code history tree points out tasks for projects that incorporate existing code.}
   \label{fig:tree2}
 \end{figure}
 
-\begin{figure}[tb]
+\begin{figure}[h!]
   \centering
   \includegraphics[scale=0.5]{tree_licensing}
   \caption{\textbf{Licensing}. Depending on the distribution model, open access (OA) or open source software can be selected.}
   \label{fig:tree3}
 \end{figure}
 
-
 If the outcome is a prohibition sign, we believe there is no other solution than to rewrite parts of the code or the whole code. If the outcome is a green checkmark, we believe you have the rights which you need to proceed. The other outcomes are self-explaining (e.g. go to legal department).
+
 
 \end{document}
