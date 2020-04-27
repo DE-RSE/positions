@@ -96,10 +96,16 @@
 \def\@reviewfrom{1}
 \def\@reviewto{1}
 \def\@acceptedon{1}
+\def\@publicationurl{1}
+\def\@publicationpidtype{1}
+\def\@publicationpid{1}
 
 \newcommand{\reviewfrom}[1]{\def\@reviewfrom{#1}}
 \newcommand{\reviewto}[1]{\def\@reviewto{#1}}
 \newcommand{\acceptedon}[1]{\def\@acceptedon{#1}}
+\newcommand{\publicationurl}[1]{\def\@publicationurl{#1}}
+\newcommand{\publicationpidtype}[1]{\def\@publicationpidtype{#1}}
+\newcommand{\publicationpid}[1]{\def\@publicationpid{#1}}
 \newcommand{\jyear}[1]{\def\@jyear{#1}}
 \newcommand{\jvolume}[1]{\def\@jvolume{#1}}
 \newcommand{\papernumber}[1]{\def\@papernumber{#1}}
@@ -317,6 +323,7 @@
       \vspace{\dimexpr 14pt-6.5pt\relax}%
       Public reviews for this \textit{de-RSE Position Paper} were conducted between \@reviewfrom~and \@reviewto.\par
       The paper has been accepted as an official position of \textit{de-RSE e.V. -- Society for Research Software} on \@acceptedon.\par
+      The paper is publicly available under the persistent identifier \href{\@publicationurl}{\@publicationpidtype:\@publicationpid}.
     \end{figure*}
   }
 \else
